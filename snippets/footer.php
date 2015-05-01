@@ -19,9 +19,9 @@
                 <div class="two columns">
                     <h4>Our Company</h4>
                     <ul>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Process</a></li>
-                        <li><a href="#">Our Team</a></li>
+                        <li><a href="/company#about">About Us</a></li>
+                        <li><a href="/company#process">Our Process</a></li>
+                        <li><a href="/company#team">Our Team</a></li>
                     </ul>
                 </div>
                 <div class="two columns">

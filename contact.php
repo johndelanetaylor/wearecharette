@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
-<?php $pageTitle = 'Company'; ?>
+<?php $pageTitle = 'Contact'; ?>
     
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
