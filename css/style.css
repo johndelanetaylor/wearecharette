@@ -28,6 +28,38 @@ h4 {
     font-size: 14px;
 }
 
+/* ~~~~~ Buttons ~~~~~ */
+nav li:hover, nav li:hover a, footer li a:hover, .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary, .button, button, input[type="submit"], input[type="reset"], input[type="button"], .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    -webkit-transition: background 0.5s linear, color 0.3s linear;
+    -moz-transition: background 0.5s linear, color 0.3s linear;
+    -ms-transition: background 0.5s linear, color 0.3s linear;
+    -o-transition: background 0.5s linear, color 0.3s linear;
+    transition: background 0.5s linear, color 0.3s linear;
+}
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    -webkit-transition: background 0.3s linear;
+    -moz-transition: background 0.3s linear;
+    -ms-transition: background 0.3s linear;
+    -o-transition: background 0.3s linear;
+    transition: background 0.3s linear;
+}
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+    outline: 0;
+    color: #FFF;
+    border-color: #E8282E;
+    background-color: #E8282E;
+}
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    color: #FFF;
+    background-color: #E8282E;
+    border-color: #E8282E;
+}
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #BE252B;
+  border-color: #BE252B;
+}
+
 /* ~~~~~ Navigation ~~~~~ */
 .logo {
     margin: auto;
@@ -42,13 +74,6 @@ nav li {
     float: right;
     margin-bottom: 0;
     padding: 40px 25px 20px;
-}
-nav li:hover, nav li:hover a {
-    -webkit-transition: background 0.5s linear;
-    -moz-transition: background 0.5s linear;
-    -ms-transition: background 0.5s linear;
-    -o-transition: background 0.5s linear;
-    transition: background 0.5s linear;
 }
 nav li:hover {
     background-color: #E8282E;
@@ -94,9 +119,4 @@ footer li a {
 }
 footer li a:hover {
     color: #E8282E;
-    -webkit-transition: background 0.5s linear;
-    -moz-transition: background 0.5s linear;
-    -ms-transition: background 0.5s linear;
-    -o-transition: background 0.5s linear;
-    transition: background 0.5s linear;
 }
