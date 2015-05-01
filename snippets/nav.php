@@ -6,7 +6,7 @@
             </div>
             <div class="nine columns nav">
                 <ul>
-                    <li <?php if($pageTitle === 'Home'){echo 'class="active"'; } ?> ><a href="work">Work</a></li>
+                    <li <?php if($pageTitle === 'Work'){echo 'class="active"'; } ?> ><a href="work">Work</a></li>
                     <li <?php if($pageTitle === 'Our Studio'){echo 'class="active"'; } ?> ><a href="studio">Our Studio</a></li>
                     <li <?php if($pageTitle === 'Contact'){echo 'class="active"'; } ?> ><a href="contact">Contact</a></li>
                 </ul>

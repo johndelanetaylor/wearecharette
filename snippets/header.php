@@ -6,6 +6,7 @@
 
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/style.css">
 
 <link rel="apple-touch-icon" sizes="57x57" href="/img/icons/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="/img/icons/apple-touch-icon-60x60.png">
@@ -22,7 +23,7 @@
 <link rel="icon" type="image/png" href="/img/icons/favicon-16x16.png" sizes="16x16">
 <link rel="manifest" href="/img/icons/manifest.json">
 <link rel="shortcut icon" href="/img/icons/favicon.ico">
-<meta name="msapplication-TileColor" content="#e8282e">
+<meta name="msapplication-TileColor" content="#E8282E">
 <meta name="msapplication-TileImage" content="/img/icons/mstile-144x144.png">
 <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#FFFFFF">
