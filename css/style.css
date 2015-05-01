@@ -1,0 +1,102 @@
+/* ~~~~~ Main ~~~~~ */
+body {
+    color: #333333;
+    font-size: 18px;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+li {
+    list-style: none;
+    margin-bottom: 0;
+}
+a {
+    color: #E8282E;
+    text-decoration: none;
+}
+h1 {
+    font-size: 42px;
+}
+h2 {
+    font-size: 36px;
+}
+h3 {
+    font-size: 28px;
+}
+h4 {
+    font-size: 20px;
+}
+.caption {
+    font-size: 14px;
+}
+
+/* ~~~~~ Navigation ~~~~~ */
+.logo {
+    margin: auto;
+    display: block;
+    max-width: 147px;
+    max-height: 76px;
+}
+nav .container {
+    height: 110px;
+}
+nav li {
+    float: right;
+    margin-bottom: 0;
+    padding: 40px 25px 20px;
+}
+nav li:hover, nav li:hover a {
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
+nav li:hover {
+    background-color: #E8282E;
+}
+nav li.active a {
+    color: #E8282E;
+}
+nav li:hover a {
+    color: #FFFFFF;
+}
+nav a {
+    color: #333333;
+    font-size: 18px;
+    font-family: "Brandon Grotesque", sans-serif, inherit;
+}
+
+/* ~~~~~ Case Studies ~~~~~ */
+.study {
+    margin: 50px auto;
+}
+
+/* ~~~~~ Footer ~~~~~ */
+footer {
+    height: 365px;
+    padding-top: 100px;
+    background-color: #F9F9F9;
+    border-bottom: solid 10px #E8282E;
+}
+footer .columns:nth-child(2) {
+    width: 17%;
+    margin-left: 8%;
+}
+footer h4 {
+    color: #E8282E;
+    font-size: 14px;
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+footer li a {
+    color: #575757;
+    font-size: 14px;
+}
+footer li a:hover {
+    color: #E8282E;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
+}
