@@ -24,6 +24,29 @@
         </div>
     </div> 
 </section>
+
+<!-- Button Styles -->
+<div style="text-align: center; width: 100%;">
+    <!-- Standard buttons -->
+    <a class="button" href="#">Anchor button</a>
+    <button>Button element</button>
+    <input type="submit" value="submit input">
+    <input type="button" value="button input">
+</div>
+<div style="text-align: center; width: 100%;">
+    <!-- Primary buttons -->
+    <a class="button button-primary" href="#">Anchor button</a>
+    <button class="button-primary">Button element</button>
+    <input class="button-primary" type="submit" value="submit input">
+    <input class="button-primary" type="button" value="button input">
+</div>
+<div style="text-align: center; width: 100%; margin-bottom: 40px;">
+    <!-- Dark buttons -->
+    <a class="button button-dark" href="#">Anchor button</a>
+    <button class="button-dark">Button element</button>
+    <input class="button-dark" type="submit" value="submit input">
+    <input class="button-dark" type="button" value="button input">
+</div>
     
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
 

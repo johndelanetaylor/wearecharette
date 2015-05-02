@@ -29,35 +29,91 @@ h4 {
 }
 
 /* ~~~~~ Buttons ~~~~~ */
-nav li:hover, nav li:hover a, footer li a:hover, .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary, .button, button, input[type="submit"], input[type="reset"], input[type="button"], .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-    -webkit-transition: background 0.5s linear, color 0.3s linear;
-    -moz-transition: background 0.5s linear, color 0.3s linear;
-    -ms-transition: background 0.5s linear, color 0.3s linear;
-    -o-transition: background 0.5s linear, color 0.3s linear;
-    transition: background 0.5s linear, color 0.3s linear;
+nav li:hover, nav li:hover a, footer li a:hover, .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -ms-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+    transition: background 0.5s linear;
 }
-.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
-    -webkit-transition: background 0.3s linear;
-    -moz-transition: background 0.3s linear;
-    -ms-transition: background 0.3s linear;
-    -o-transition: background 0.3s linear;
-    transition: background 0.3s linear;
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border: 1px solid #A2A3AA;
+    font-family: "brandon-grotesque", sans-serif;
 }
 .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
     outline: 0;
-    color: #FFF;
-    border-color: #E8282E;
-    background-color: #E8282E;
+    border: 1px solid #66676E;
+    -webkit-box-shadow: inset 0px 0px 0px 1px #66676E;
+    -moz-box-shadow: inset 0px 0px 0px 1px #66676E;
+    box-shadow: inset 0px 0px 0px 1px #66676E;
 }
 .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
     color: #FFF;
-    background-color: #E8282E;
     border-color: #E8282E;
+    background: #E8282E;
+    background: -moz-linear-gradient(top, rgba(232,40,46,1) 0%, rgba(208,36,41,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,40,46,1)), color-stop(100%,rgba(208,36,41,1)));
+    background: -webkit-linear-gradient(top, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
+    background: -o-linear-gradient(top, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
+    background: -ms-linear-gradient(top, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
+    background: linear-gradient(to bottom, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8282e', endColorstr='#d02429',GradientType=0 );
 }
 .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
-  color: #FFF;
-  background-color: #BE252B;
-  border-color: #BE252B;
+    border-color: #C62429;
+    -webkit-box-shadow: inset 0px 0px 0px 11px #C62429;
+    -moz-box-shadow: inset 0px 0px 0px 1px #C62429;
+    box-shadow: inset 0px 0px 0px 1px #C62429;
+    background: rgb(250,40,46);
+    background: -moz-linear-gradient(top, rgba(250,40,46,1) 0%, rgba(225,36,41,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(250,40,46,1)), color-stop(100%,rgba(225,36,41,1)));
+    background: -webkit-linear-gradient(top, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
+    background: -o-linear-gradient(top, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
+    background: -ms-linear-gradient(top, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
+    background: linear-gradient(to bottom, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa282e', endColorstr='#e12429',GradientType=0 );
+}
+.button.button-primary:active, button.button-primary:active, input[type="submit"].button-primary:active, input[type="reset"].button-primary:active, input[type="button"].button-primary:active {
+    border-color: #C62429;
+    background: rgb(204,35,40);
+    background: -moz-linear-gradient(top, rgba(204,35,40,1) 0%, rgba(183,31,36,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,35,40,1)), color-stop(100%,rgba(183,31,36,1)));
+    background: -webkit-linear-gradient(top, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
+    background: -o-linear-gradient(top, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
+    background: -ms-linear-gradient(top, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
+    background: linear-gradient(to bottom, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc2328', endColorstr='#b71f24',GradientType=0 );
+}
+.button.button-dark, button.button-dark, input[type="submit"].button-dark, input[type="reset"].button-dark, input[type="button"].button-dark {
+    color: #FFF;
+    border-color: rgb(162,163,170);
+    background: rgb(162,163,170);
+    background: -moz-linear-gradient(top, rgba(162,163,170,1) 0%, rgba(145,146,153,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(162,163,170,1)), color-stop(100%,rgba(145,146,153,1)));
+    background: -webkit-linear-gradient(top, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
+    background: -o-linear-gradient(top, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
+    background: -ms-linear-gradient(top, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
+    background: linear-gradient(to bottom, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2a3aa', endColorstr='#919299',GradientType=0 );
+}
+.button.button-dark:hover, button.button-dark:hover, input[type="submit"].button-dark:hover, input[type="reset"].button-dark:hover, input[type="button"].button-dark:hover, .button.button-dark:focus, button.button-dark:focus, input[type="submit"].button-dark:focus, input[type="reset"].button-dark:focus, input[type="button"].button-dark:focus {
+    border-color: rgba(102,103,110,.6);
+    -webkit-box-shadow: inset 0px 0px 2px 1px rgba(102,103,110,.6);
+    -moz-box-shadow: inset 0px 0px 2px 1px rgba(102,103,110,.6);
+    box-shadow: inset 0px 0px 2px 1px rgba(102,103,110,.6);
+}
+.button.button-dark:active, button.button-dark:active, input[type="submit"].button-dark:active, input[type="reset"].button-dark:active, input[type="button"].button-dark:active {
+    border-color: rgb(102,103,110);
+    background: rgb(102,103,110);
+    background: -moz-linear-gradient(top, rgba(102,103,110,1) 0%, rgba(92,92,99,1) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,103,110,1)), color-stop(100%,rgba(92,92,99,1)));
+    background: -webkit-linear-gradient(top, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
+    background: -o-linear-gradient(top, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
+    background: -ms-linear-gradient(top, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
+    background: linear-gradient(to bottom, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66676e', endColorstr='#5c5c63',GradientType=0 );
 }
 
 /* ~~~~~ Navigation ~~~~~ */
@@ -71,8 +127,8 @@ nav .container {
     height: 110px;
 }
 nav li {
-    float: right;
     margin-bottom: 0;
+    display: inline-block;
     padding: 40px 25px 20px;
 }
 nav li:hover {
@@ -143,8 +199,8 @@ footer li a:hover {
     float: left;
 }
 #weather div:first-of-type {
-    margin-right: 35px;
     margin-top: 10px;
+    margin-right: 35px;
 }
 #weather h1 {
     font-size: 58px;
@@ -165,10 +221,10 @@ footer li a:hover {
 }
 
 i {
-    font-family: weather;
-    font-style: normal;
-    margin-left: 10px;
     font-size: 120%;
+    margin-left: 10px;
+    font-style: normal;
+    font-family: weather;  
 }
 
 .icon-0:before { content: ":"; }
@@ -221,9 +277,16 @@ i {
 .icon-47:before { content: "S"; }
 
 /* ~~~~~ Media Queries ~~~~~ */
+@media (min-width: 400px) {}
 @media (min-width: 550px) {
     footer .columns:nth-child(2) {
         width: 17%;
         margin-left: 8%;
     }
+    nav ul {
+        float: right;
+    }
 }
+@media (min-width: 750px) {}
+@media (min-width: 1000px) {}
+@media (min-width: 1200px) {}
