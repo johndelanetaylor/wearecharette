@@ -9,6 +9,11 @@
 <body>
 	
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
+    
+<!-- Slideshow Placeholder -->
+<div style="text-align: center; width: 100%; margin: 20px 0;">
+    <img src="img/slideshow.jpg" class="margin:auto; max-width: 100%;" />
+</div>
 
 <section class="study">
     <div class="container">
