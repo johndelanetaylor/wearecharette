@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    loadWeather('SHALLOTTE','NC'); // default
+    loadWeather('St. Augustine','FL'); // default
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(function(position) {
             loadWeather(position.coords.latitude+','+position.coords.longitude);
