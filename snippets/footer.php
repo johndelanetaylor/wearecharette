@@ -2,7 +2,8 @@
         <div class="container">
             <div class="row">
                 <div class="five columns">
-                    <h4>Currently In Your Area</h4>
+                    <h4>Currently in Our Area</h4>
+                    <div id="weather"></div>
                 </div>
                 <div class="two columns">
                     <h4>Case Studies</h4>
@@ -38,4 +39,5 @@
     </footer>
 
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery.simpleWeather.min.js"></script>
     <script src="js/scripts.js"></script>
