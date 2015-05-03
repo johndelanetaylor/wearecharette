@@ -26,5 +26,6 @@ $(document).ready(function() {
     } // geolocation
     $('.study a.button').hover(function(){
         $(this).closest('.row').find('.skew').toggleClass('hovered');
+        $(this).closest('.row').find('.seven.columns').toggleClass('hovered');
     });
 });

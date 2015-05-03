@@ -350,7 +350,7 @@ i {
     }
     
     /* - Experimental Skew Code - */
-    .skew, .skew img {
+    .skew, .skew img, .study .seven.columns {
         -webkit-transition: transform 0.3s;
         -moz-transition: transform 0.3s;
         -ms-transition: transform 0.3s;
@@ -378,12 +378,12 @@ i {
         -o-transform: skew(-20deg);
         transform: skew(-20deg);
     }
-    .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img {
-        -webkit-transform: skew(0);
-        -moz-transform: skew(0);
-        -ms-transform: skew(0);
-        -o-transform: skew(0);
-        transform: skew(0);
+    .seven.columns {
+        -webkit-transform: translate(90px,0);
+        -moz-transform: translate(90px,0);
+        -ms-transform: translate(90px,0);
+        -o-transform: translate(90px,0);
+        transform: translate(90px,0);
     }
     .study.right .skew {
         height: 450px;
@@ -408,7 +408,21 @@ i {
         -o-transform: skew(20deg);
         transform: skew(20deg);
     }
-    .study.right .skew:hover, .study.right .skew:hover img {
+    .study.right .seven.columns {
+        -webkit-transform: translate(-90px,0);
+        -moz-transform: translate(-90px,0);
+        -ms-transform: translate(-90px,0);
+        -o-transform: translate(-90px,0);
+        transform: translate(-90px,0);
+    }
+    .seven.columns:hover, .seven.columns.hovered, .study.right .seven.columns:hover, .study.right .seven.columns.hovered {
+        -webkit-transform: translate(0,0);
+        -moz-transform: translate(0,0);
+        -ms-transform: translate(0,0);
+        -o-transform: translate(0,0);
+        transform: translate(0,0);
+    }
+    .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img, .study.right .skew:hover, .study.right .skew:hover img {
         -webkit-transform: skew(0);
         -moz-transform: skew(0);
         -ms-transform: skew(0);
