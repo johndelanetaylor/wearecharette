@@ -331,6 +331,72 @@ nav li:hover, nav li:hover a, footer li a:hover, .button, button, input[type="su
         float: right;
     }
     
+    /* - Experimental Skew Code - */
+    .skew, .skew img {
+        -webkit-transition: transform 0.3s;
+        -moz-transition: transform 0.3s;
+        -ms-transition: transform 0.3s;
+        -o-transition: transform 0.3s;
+        transition: transform 0.3s;
+    }
+    .skew {
+        height: 450px;
+        overflow: hidden;
+        margin-right: -250px;
+        position: relative;  
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -ms-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        transform: skew(20deg);
+    }
+    .skew img {
+        width: 800px;
+        height: 450px;
+        margin-left: -100px;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -ms-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transform: skew(-20deg);
+    }
+    .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img {
+        -webkit-transform: skew(0);
+        -moz-transform: skew(0);
+        -ms-transform: skew(0);
+        -o-transform: skew(0);
+        transform: skew(0);
+    }
+    .study.right .skew {
+        height: 450px;
+        overflow: hidden;
+        margin-right: 0;
+        margin-left: -250px;
+        position: relative;  
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -ms-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transform: skew(-20deg);
+    }
+    .study.right .skew img {
+        width: 800px;
+        height: 450px;
+        margin-left: 0;
+        margin-right: -100px;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -ms-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        transform: skew(20deg);
+    }
+    .study.right .skew:hover, .study.right .skew:hover img {
+        -webkit-transform: skew(0);
+        -moz-transform: skew(0);
+        -ms-transform: skew(0);
+        -o-transform: skew(0);
+        transform: skew(0);
+    }
 }
 @media (min-width: 750px) {}
 @media (min-width: 1000px) {}

@@ -24,4 +24,7 @@ $(document).ready(function() {
             $('footer .five.columns h4').html('Currently in Your Area');
         });
     } // geolocation
+    $('.study a.button').hover(function(){
+        $(this).closest('.row').find('.skew').toggleClass('hovered');
+    });
 });
