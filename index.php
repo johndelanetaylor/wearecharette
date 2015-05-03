@@ -11,8 +11,8 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
     
 <!-- Slideshow Placeholder -->
-<div style="text-align: center; width: 100%; margin: 20px 0;">
-    <img src="img/slideshow.jpg" class="margin:auto; max-width: 100%;" />
+<div style="text-align: center; width: 100%; margin: 20px 0 40px;">
+    <img src="img/slideshow.jpg" style="margin:auto; max-width: 100%;" />
 </div>
 
 <section class="study">
@@ -70,7 +70,7 @@
 </section>
 
 <!-- Button Styles -->
-<div style="text-align: center; width: 100%;">
+<div style="text-align: center; width: 100%; margin-top: 40px;">
     <!-- Standard buttons -->
     <a class="button" href="#">Anchor button</a>
     <button>Button element</button>

@@ -1,13 +1,3 @@
-$(document).ready(function() {
-    loadWeather('St. Augustine','FL'); // default
-    if ("geolocation" in navigator) {
-        navigator.geolocation.getCurrentPosition(function(position) {
-            loadWeather(position.coords.latitude+','+position.coords.longitude);
-            $('footer .five.columns h4').html('Currently in Your Area');
-        });
-    } // geolocation
-});
-
 function loadWeather(location, woeid) {
   $.simpleWeather({
     location: location,
@@ -26,3 +16,12 @@ function loadWeather(location, woeid) {
   });
 }
 
+$(document).ready(function() {
+    loadWeather('St. Augustine','FL'); // default
+    if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            loadWeather(position.coords.latitude+','+position.coords.longitude);
+            $('footer .five.columns h4').html('Currently in Your Area');
+        });
+    } // geolocation
+});
