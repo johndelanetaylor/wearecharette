@@ -12,6 +12,9 @@ a {
     color: #E8282E;
     text-decoration: none;
 }
+a:hover {
+    color: #E8282E;
+}
 h1 {
     font-size: 42px;
 }
@@ -53,14 +56,14 @@ nav li {
     padding: 40px 25px 20px;
     box-shadow: inset 0 0 0 0 #E8282E;
 }
-nav li:hover {
+nav li.hovered {
     background-color: #FFFFFF;
     box-shadow: inset 0 100px 0 0 #E8282E;
 }
 nav li.active a {
     color: #E8282E;
 }
-nav li:hover a {
+nav li.hovered a {
     color: #FFFFFF;
 }
 nav a {
@@ -68,7 +71,7 @@ nav a {
     font-size: 18px;
     font-weight: 400;
 }
-nav li:hover, nav li:hover a {
+nav li.hovered, nav li.hovered a {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
@@ -235,12 +238,14 @@ i {
     transition: background 0.3s ease;
 }
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    color: #777;
     font-size: 12px;
     letter-spacing: 1.5px;
     border: 1px solid #A2A3AA;
     font-family: "brandon-grotesque", sans-serif;
 }
 .button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover, .button:focus, button:focus, input[type="submit"]:focus, input[type="reset"]:focus, input[type="button"]:focus {
+    color: #555;
     outline: 0;
     border: 1px solid #66676E;
     -webkit-box-shadow: inset 0px 0px 0px 1px #66676E;
@@ -348,8 +353,9 @@ i {
     .study.right .seven.columns img {
         float: right;
     }
-    
-    /* - Experimental Skew Code - */
+}
+@media (min-width: 750px) {}
+@media (min-width: 1000px) {
     .skew, .skew img, .study .seven.columns {
         -webkit-transition: transform 0.3s;
         -moz-transition: transform 0.3s;
@@ -422,7 +428,7 @@ i {
         -o-transform: translate(0,0);
         transform: translate(0,0);
     }
-    .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img, .study.right .skew:hover, .study.right .skew:hover img {
+    .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img, .study.right .skew:hover, .study.right .skew:hover img, .study.right .skew.hovered {
         -webkit-transform: skew(0);
         -moz-transform: skew(0);
         -ms-transform: skew(0);
@@ -430,6 +436,4 @@ i {
         transform: skew(0);
     }
 }
-@media (min-width: 750px) {}
-@media (min-width: 1000px) {}
 @media (min-width: 1200px) {}

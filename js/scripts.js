@@ -28,4 +28,5 @@ $(document).ready(function() {
         $(this).closest('.row').find('.skew').toggleClass('hovered');
         $(this).closest('.row').find('.seven.columns').toggleClass('hovered');
     });
+    $("nav a").hover(function() { $(this).parent('li').toggleClass('hovered'); });
 });
