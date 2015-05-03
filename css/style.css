@@ -27,6 +27,11 @@ h4 {
 .caption {
     font-size: 14px;
 }
+nav:after, nav ul:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* ~~~~~ Navigation ~~~~~ */
 .logo {
@@ -46,9 +51,11 @@ nav li {
     margin-bottom: 0;
     display: inline-block;
     padding: 40px 25px 20px;
+    box-shadow: inset 0 0 0 0 #E8282E;
 }
 nav li:hover {
-    background-color: #E8282E;
+    background-color: #FFFFFF;
+    box-shadow: inset 0 100px 0 0 #E8282E;
 }
 nav li.active a {
     color: #E8282E;
@@ -60,7 +67,13 @@ nav a {
     color: #333333;
     font-size: 18px;
     font-weight: 400;
-    font-family: "brandon-grotesque", sans-serif;
+}
+nav li:hover, nav li:hover a {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 /* ~~~~~ Case Studies ~~~~~ */
@@ -105,6 +118,13 @@ footer li a {
 }
 footer li a:hover {
     color: #E8282E;
+}
+footer li a:hover {
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear;
 }
 
 /* ~~~~~ Weather ~~~~~ */
@@ -207,12 +227,12 @@ i {
 .icon-47:before { content: "S"; }
 
 /* ~~~~~ Buttons ~~~~~ */
-nav li:hover, nav li:hover a, footer li a:hover, .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
-    -webkit-transition: background 0.5s linear;
-    -moz-transition: background 0.5s linear;
-    -ms-transition: background 0.5s linear;
-    -o-transition: background 0.5s linear;
-    transition: background 0.5s linear;
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+    -webkit-transition: background 0.3s ease;
+    -moz-transition: background 0.3s ease;
+    -ms-transition: background 0.3s ease;
+    -o-transition: background 0.3s ease;
+    transition: background 0.3s ease;
 }
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
     font-size: 12px;
@@ -307,8 +327,6 @@ nav li:hover, nav li:hover a, footer li a:hover, .button, button, input[type="su
     }
     .study {
         height: 450px;
-        overflow: hidden;
-        position: relative;
         margin-bottom: 80px;
     }
     .study .five.columns {
