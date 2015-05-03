@@ -14,7 +14,8 @@
 <div style="text-align: center; width: 100%; margin: 20px 0 40px;">
     <img src="img/slideshow.jpg" style="margin:auto; max-width: 100%;" />
 </div>
-
+    
+<!-- Case Study 1 -->
 <section class="study">
     <div class="container">
         <div class="row">
@@ -32,7 +33,8 @@
         </div>
     </div> 
 </section>
-    
+
+<!-- Case Study 2 -->
 <section class="study right">
     <div class="container">
         <div class="row">
@@ -50,7 +52,8 @@
         </div>
     </div> 
 </section>
-    
+
+<!-- Case Study 3 -->
 <section class="study">
     <div class="container">
         <div class="row">
@@ -69,23 +72,24 @@
     </div> 
 </section>
 
-<!-- Button Styles -->
+<!-- Standard buttons -->
 <div style="text-align: center; width: 100%; margin-top: 40px;">
-    <!-- Standard buttons -->
     <a class="button" href="#">Anchor button</a>
     <button>Button element</button>
     <input type="submit" value="submit input">
     <input type="button" value="button input">
 </div>
+
+<!-- Primary buttons -->
 <div style="text-align: center; width: 100%;">
-    <!-- Primary buttons -->
     <a class="button button-primary" href="#">Anchor button</a>
     <button class="button-primary">Button element</button>
     <input class="button-primary" type="submit" value="submit input">
     <input class="button-primary" type="button" value="button input">
 </div>
+    
+<!-- Dark buttons -->
 <div style="text-align: center; width: 100%; margin-bottom: 40px;">
-    <!-- Dark buttons -->
     <a class="button button-dark" href="#">Anchor button</a>
     <button class="button-dark">Button element</button>
     <input class="button-dark" type="submit" value="submit input">
