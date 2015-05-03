@@ -283,9 +283,32 @@ i {
         width: 17%;
         margin-left: 8%;
     }
-    nav ul {
+    .study {
+        height: 450px;
+        overflow: hidden;
+        position: relative;
+        margin-bottom: 80px;
+    }
+    .study .five.columns {
+        padding-top: 60px;
+    }
+    .study.right .columns {
         float: right;
     }
+    .study.right .columns {
+        margin-left: 0;
+        margin-right: 4%;
+    }
+    .study.right .columns:first-child {
+        margin-right: 0;
+    }
+    .study.right .five.columns {
+        text-align: right;
+    }
+    .study.right .seven.columns img {
+        float: right;
+    }
+    
 }
 @media (min-width: 750px) {}
 @media (min-width: 1000px) {}
