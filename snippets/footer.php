@@ -38,6 +38,6 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="js/jquery.simpleWeather.min.js"></script>
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/simpleWeather.min.js"></script>
     <script src="js/scripts.js"></script>

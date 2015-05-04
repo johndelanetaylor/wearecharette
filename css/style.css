@@ -428,7 +428,7 @@ i {
         -o-transform: translate(0,0);
         transform: translate(0,0);
     }
-    .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img, .study.right .skew:hover, .study.right .skew:hover img, .study.right .skew.hovered {
+    .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img, .study.right .skew:hover, .study.right .skew:hover img, .study.right .skew.hovered, .study.right .skew.hovered img {
         -webkit-transform: skew(0);
         -moz-transform: skew(0);
         -ms-transform: skew(0);
