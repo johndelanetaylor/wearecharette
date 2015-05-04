@@ -19,7 +19,7 @@ function loadWeather(location, woeid) {
 // Fade-in sections as user scrolls
 $(window).scroll(function () {
     $('section').each(function() {
-        var sectionBottom = $(this).position().top + $(this).outerHeight() / 2;
+        var sectionBottom = $(this).position().top + $(this).outerHeight() / 3;
         var windowBottom = $(window).scrollTop() + $(window).height();
         if (windowBottom > sectionBottom) {
             $(this).animate({
@@ -30,17 +30,17 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function() {
-    loadWeather('St. Augustine','FL'); // default
+    loadWeather('St. Augustine','FL'); // Default
     if ('geolocation' in navigator) {
         navigator.geolocation.getCurrentPosition(function(position) {
             loadWeather(position.coords.latitude+','+position.coords.longitude);
             $('footer .five.columns h4').html('Currently in Your Area');
         });
-    } // geolocation
+    } // Geolocation
     $('.study a.button').hover(function(){
         $(this).closest('.row').find('.skew').toggleClass('hovered');
         $(this).closest('.row').find('.seven.columns').toggleClass('hovered');
-    });
+    }); // Button Hover Skew
     $('nav a').hover(function() { $(this).parent('li').toggleClass('hovered'); });
     $('section:not(:nth-of-type(1)):not(:nth-of-type(2))').css('opacity',0);
 });

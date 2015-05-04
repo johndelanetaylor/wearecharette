@@ -25,15 +25,21 @@ h3 {
     font-size: 28px;
 }
 h4 {
-    font-size: 20px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "brandon-grotesque", sans-serif;
+}
+h1, h2, h3, h4 {
+    margin-bottom: 0;
 }
 .caption {
     font-size: 14px;
 }
 nav:after, nav ul:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* ~~~~~ Navigation ~~~~~ */
@@ -79,7 +85,7 @@ nav li.hovered, nav li.hovered a {
     transition: all 0.5s ease;
 }
 
-/* ~~~~~ Case Studies ~~~~~ */
+/* ~~~~~ Work ~~~~~ */
 .study {
     overflow: hidden;
     position: relative;
@@ -90,12 +96,57 @@ nav li.hovered, nav li.hovered a {
 }
 .study h4 {
     color: #A2A3AA;
-    font-size: 16px;
     font-weight: 400;
     margin-bottom: 5px;
-    letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: "brandon-grotesque", sans-serif;
+}
+
+/* ~~~~~ Studio ~~~~~ */
+.text {
+    height: 300px;
+}
+.text.dark {
+    color: #FFF;
+    background: rgba(0,0,0,.8);
+}
+.text .container {
+    padding: 80px 70px;
+}
+.text.dark .container {
+    padding: 100px 70px;
+}
+
+.services, .team {
+    text-align: center;
+    background: #F9F9F9;
+}
+.services img {
+    float: right;
+}
+.services p:first-of-type {
+    text-align: left;
+}
+.services h2 {
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+.services h4, .process h4, .team h4, .contact h4 {
+    color: #A2A3AA;
+    margin-bottom: 5px;
+}
+.services .four.columns {
+    padding-top: 40px;
+}
+.services .spacer {
+    height: 60px;
+}
+
+.process h3, .team h3, .contact h3, .contact h4 {
+    text-align: center;
+}
+.process, .team, .contact {
+    padding-top: 60px;
+    height: 240px;
 }
 
 /* ~~~~~ Footer ~~~~~ */
@@ -111,9 +162,6 @@ footer h4 {
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 8px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-family: "brandon-grotesque", sans-serif;
 }
 footer li a {
     color: #575757;
