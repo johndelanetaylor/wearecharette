@@ -20,18 +20,18 @@
                 <div class="two columns">
                     <h4>Our Studio</h4>
                     <ul>
-                        <li><a href="/studio#about">About Us</a></li>
-                        <li><a href="/studio#team">Our Team</a></li>
-                        <li><a href="/studio#culture">Culture</a></li>
+                        <li><a href="/studio">About Us</a></li>
                         <li><a href="/studio#services">Services</a></li>
+                        <li><a href="/studio#process">Process</a></li>
+                        <li><a href="/studio#team">Our Team</a></li>
                     </ul>
                 </div>
                 <div class="two columns">
                     <h4>Connect</h4>
                     <ul>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
+                        <li><a href="/studio#contact">Contact</a></li>
+                        <li><a href="https://www.facebook.com/wearecharette" target="_blank">Facebook</a></li>
+                        <li><a href="https://twitter.com/wearecharette" target="_blank">Twitter</a></li>
                     </ul>
                 </div>
             </div>
