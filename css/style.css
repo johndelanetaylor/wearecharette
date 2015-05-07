@@ -15,15 +15,9 @@ a {
 a:hover {
     color: #E8282E;
 }
-h1 {
-    font-size: 42px;
-}
-h2 {
-    font-size: 36px;
-}
-h3 {
-    font-size: 28px;
-}
+h1 { font-size: 42px; }
+h2 { font-size: 36px; }
+h3 { font-size: 28px; }
 h4 {
     font-size: 16px;
     letter-spacing: 1px;
@@ -36,7 +30,7 @@ h1, h2, h3, h4 {
 .caption {
     font-size: 14px;
 }
-nav:after, nav ul:after {
+nav:after, nav ul:after, .process:after {
     content: "";
     display: table;
     clear: both;
@@ -102,9 +96,6 @@ nav li.hovered, nav li.hovered a {
 }
 
 /* ~~~~~ Studio ~~~~~ */
-.text {
-    height: 300px;
-}
 .text.dark {
     color: #FFF;
     background: rgba(0,0,0,.8);
@@ -115,6 +106,9 @@ nav li.hovered, nav li.hovered a {
 .text.dark .container {
     padding: 100px 70px;
 }
+.text.dark h2 {
+    font-size: 34px;
+} /* Intro */
 
 .services, .team {
     text-align: center;
@@ -139,15 +133,117 @@ nav li.hovered, nav li.hovered a {
 }
 .services .spacer {
     height: 60px;
+} /* Services */
+
+.process {
+    padding: 80px 0 60px;
+}
+.process h3 {
+    margin-bottom: 60px;
+}
+.process p {
+    font-size: 16px;
+}
+.process .block {
+    width: 45%;
+    float: left;
+    padding: 10px;
+}
+.process .dropcap {
+    float: left;
+    color: #E8282E;
+    font-size: 50px;
+    padding: 0 10px;
+    line-height: 50px;
+} /* Process */
+
+.team h3 {
+    padding-top: 80px;
+}
+.team h4, .team {
+    padding-bottom: 60px;
+}
+.team .item {
+    width: 150px;
+    height: 150px;
+    margin: 25px 50px;
+    position: relative;
+    display: inline-block;
+}
+.team .item .title {
+    left: 0;
+    top: 55px;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    color: #FFFFFF;
+    line-height: 1.2;
+    position: absolute;
+    text-shadow: 0 0 12px rgba(118, 8, 8, 1);
+}
+.team .item:hover {
+    -webkit-filter: drop-shadow(0 0 15px rgba(232,40,46,.6));
+}
+.team .item:hover .title {
+    opacity: 1;
+}
+.team .item, .team .item .title {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
-.process h3, .team h3, .contact h3, .contact h4 {
+.team .item:nth-of-type(1) { background: url(/img/team/jeff.png); }
+.team .item:nth-of-type(2) { background: url(/img/team/emily.png); }
+.team .item:nth-of-type(3) { background: url(/img/team/john.png); }
+.team .item:nth-of-type(4) { background: url(/img/team/katie.png); }
+.team .item:nth-of-type(5) { background: url(/img/team/bianca.png); }
+
+.team .item:nth-of-type(1):hover { background: url(/img/team/jeff-red.png); }
+.team .item:nth-of-type(2):hover { background: url(/img/team/emily-red.png); }
+.team .item:nth-of-type(3):hover { background: url(/img/team/john-red.png); }
+.team .item:nth-of-type(4):hover { background: url(/img/team/katie-red.png); }
+.team .item:nth-of-type(5):hover { background: url(/img/team/bianca-red.png); }
+
+.team h3, .process h3, .contact h3, .contact h4 {
     text-align: center;
+} /* Team */ 
+
+.contact h3 {
+    padding-top: 80px;
 }
-.process, .team, .contact {
-    padding-top: 60px;
-    height: 240px;
+.contact h4, .contact {
+    padding-bottom: 80px;
+} 
+.contact form {
+    max-width: 640px;
+    margin: auto;
 }
+.contact form input[type='submit'] {
+    margin: auto;
+    display: block;
+    padding: 0 50px;
+}
+.contact form textarea {
+    height: 100px;
+}
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    height: 46px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #DEDFE6;
+    -webkit-transition: border 0.3s ease;
+    -moz-transition: border 0.3s ease;
+    -ms-transition: border 0.3s ease;
+    -o-transition: border 0.3s ease;
+    transition: border 0.3s ease;
+}
+input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
+    border: 2px solid #E8282E;
+}
+/* Contact */
 
 /* ~~~~~ Footer ~~~~~ */
 footer {
