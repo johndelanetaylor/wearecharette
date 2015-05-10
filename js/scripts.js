@@ -1,3 +1,4 @@
+// Simple Weather
 function loadWeather(location, woeid) {
   $.simpleWeather({
     location: location,
@@ -16,6 +17,15 @@ function loadWeather(location, woeid) {
   });
 }
 
+// Window Size
+function windowSize() {
+    windowHeight = window.innerHeight ? window.innerHeight : $(window).height();
+    windowWidth = window.innerWidth ? window.innerWidth : $(window).width();
+}
+$(window).resize(function() {
+    windowSize();
+});
+
 // Fade-in sections as user scrolls
 $(window).scroll(function () {
     $('section').each(function() {
@@ -30,6 +40,7 @@ $(window).scroll(function () {
 });
 
 $(document).ready(function() {
+    windowSize();
     loadWeather('St. Augustine','FL'); // Default
     if ('geolocation' in navigator) {
         navigator.geolocation.getCurrentPosition(function(position) {
@@ -42,5 +53,15 @@ $(document).ready(function() {
         $(this).closest('.row').find('.seven.columns').toggleClass('hovered');
     }); // Button Hover Skew
     $('nav a').hover(function() { $(this).parent('li').toggleClass('hovered'); });
+    // Need to fix this so it hides all but the sections currently in the viewport
     $('section:not(:nth-of-type(1)):not(:nth-of-type(2))').css('opacity',0);
+    if(windowWidth >= 1000) {
+        $('#modal').on('click', function (e) {
+            e.preventDefault();
+            $('.modal, .backdrop').toggleClass('active');
+        });
+        $('.backdrop, .modal .close').on('click', function (e) {
+            $('.modal, .backdrop').toggleClass('active');
+        });
+    } // Desktop size and up
 });

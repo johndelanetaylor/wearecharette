@@ -26,5 +26,5 @@
         </div>
     </div>
     <textarea class="u-full-width" placeholder="How can we help you?"></textarea>
-    <input class="button-primary" type="submit" value="Submit">
+    <input class="button-primary large" type="submit" value="Send">
 </form>

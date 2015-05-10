@@ -9,6 +9,9 @@
 <body>
 	
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
+    
+<!-- Contact Modal -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/modal.php"); ?>
 
 <!-- Case Study 1 -->
 <section class="study">

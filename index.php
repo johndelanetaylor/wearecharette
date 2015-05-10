@@ -10,6 +10,9 @@
 	
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
     
+<!-- Contact Modal -->
+<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/modal.php"); ?>
+    
 <!-- Slideshow Placeholder -->
 <div style="text-align: center; width: 100%; margin: 20px 0 40px;">
     <img src="img/slideshow.jpg" style="margin:auto; max-width: 100%;" />
