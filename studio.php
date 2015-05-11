@@ -98,19 +98,24 @@
                 <h3>We Love Great Company Culture</h3>
                 <h4>And Our Team Rocks!</h4>
                 <div class="item">
-                    <span class="title">Jeff Charette<br>Principal</span>
+                    <span class="name">Jeff Charette</span>
+                    <span class="title">Principal</span>
                 </div>
                 <div class="item">
-                    <span class="title">Emily Charette<br>Principal</span>
+                    <span class="name">Emily Charette</span>
+                    <span class="title">Principal</span>
                 </div>
                 <div class="item">
-                    <span class="title">John Taylor<br>Designer</span>
+                    <span class="name">John Taylor</span>
+                    <span class="title">Designer</span>
                 </div>
                 <div class="item">
-                    <span class="title">Katie Evans<br>Designer</span>
+                    <span class="name">Katie Evans</span>
+                    <span class="title">Designer</span>
                 </div>
                 <div class="item">
-                    <span class="title">Bianca Borghi<br>Designer</span>
+                    <span class="name">Bianca Borghi</span>
+                    <span class="title">Designer</span>
                 </div>
             </div>
         </div>

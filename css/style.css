@@ -135,7 +135,7 @@ nav li.hovered, nav li.hovered a {
 }
 .services h2 {
     font-weight: 400;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-family: "brandon-grotesque", sans-serif;
 }
 .services h4, .process h4, .team h4, .contact h4 {
@@ -411,6 +411,7 @@ footer li a:hover {
     color: #66676e;
     font-size: 18px;
     letter-spacing: 1px;
+    font-family: "proxima-nova", sans-serif;
 }
 #weather h1, #weather h2, i {
     color: #2A2B32;
