@@ -30,7 +30,7 @@
                     <h4>Connect</h4>
                     <ul>
                         <li><a href="/studio#contact">Contact</a></li>
-                        <li><a href="https://www.facebook.com/wearecharette" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.facebook.com/Wearecharette" target="_blank">Facebook</a></li>
                         <li><a href="https://twitter.com/wearecharette" target="_blank">Twitter</a></li>
                     </ul>
                 </div>

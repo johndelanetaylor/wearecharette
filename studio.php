@@ -114,8 +114,8 @@
                     <span class="title">Designer</span>
                 </div>
                 <div class="item">
-                    <span class="name">Bianca Borghi</span>
-                    <span class="title">Designer</span>
+                    <span class="name">Seth Mcleod</span>
+                    <span class="title">Developer</span>
                 </div>
             </div>
         </div>
