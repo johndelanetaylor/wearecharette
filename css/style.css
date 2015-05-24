@@ -74,7 +74,7 @@ nav a {
     font-weight: bold;
     font-family: "brandon-grotesque", sans-serif;
 }
-nav li.hovered, nav li.hovered a {
+nav li, nav li a, nav li.hovered, nav li.hovered a {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
