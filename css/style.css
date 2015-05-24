@@ -37,6 +37,14 @@ nav:after, nav ul:after, .process:after {
     display: table;
     clear: both;
 }
+hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid #EDEDED;
+}
+.offset {
+    height: 1px;
+}
 
 /* ~~~~~ Navigation ~~~~~ */
 .logo {
@@ -103,22 +111,132 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     font-family: "brandon-grotesque", sans-serif;
 }
 
+/* ~~~~~ Project ~~~~~ */
+section.cover {
+    height: 180px;
+    text-align: center;
+    padding-top: 120px;
+}
+section.cover h1 {
+    color: #FFF;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "brandon-grotesque", sans-serif;
+}
+section.blockquote h2 {
+    color: #FFF;
+    font-size: 22px;
+    line-height: 1.6;
+    padding: 70px 0;
+    letter-spacing: .2px;
+}
+
+/* Text */
+section.text {
+    padding: 70px 0;
+}
+section.text h3 {
+    color: #E8282E;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: .5px;
+}
+section.text p {
+    color: #66676e;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 300;
+    margin-bottom: 0;
+    margin-bottom: 0;
+    letter-spacing: .2px;
+}
+
+/* Info */ 
+section.info ul {
+    padding-left: 20px;
+    list-style: initial;
+}
+section.info li {
+    font-weight: 300;
+    list-style: inherit;
+}
+
+/* Images */
+section.image {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+section.image.no-top {
+    padding-top: 0;
+}
+section.image.no-bottom {
+    padding-bottom: 0;
+}
+section.image img {
+    max-width: 100%;
+}
+section.image .row:not(:first-child) {
+    margin-top: 60px;
+}
+
+/* Footer Nav */
+section.footer {
+    border-top: solid 1px #EDEDED;
+    border-bottom: solid 1px #EDEDED;
+}
+section.footer .four.columns {
+    text-align: center;
+    padding: 80px 0;
+}
+section.footer .four.columns h4 {
+    color: #A0A0A0;
+    letter-spacing: .5px;
+    font-weight: 400;
+}
+section.footer .four.columns img {
+    margin-top: -2px;
+}
+section.footer .four.columns:nth-child(1) img, section.footer .four.columns:nth-child(1) h4 {
+    float: left;
+}
+section.footer .four.columns:nth-child(2) {
+    border-left: solid 1px #EDEDED;
+    border-right: solid 1px #EDEDED;
+}
+section.footer .four.columns:nth-child(3) img, section.footer .four.columns:nth-child(3) h4 {
+    float: right;
+}
+section.footer .four.columns:nth-child(1) h4, section.footer .four.columns:nth-child(3) h4 {
+    padding: 0 10px;
+}
+section.footer a:hover h4 {
+    color: #66676E !important;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+    -ms-transition: color 0.3s linear;
+    -o-transition: color 0.3s linear;
+    transition: color 0.3s linear;
+}
+
 /* ~~~~~ Studio ~~~~~ */
-.text.dark {
+.dark {
     color: #FFF;
     background: rgba(0,0,0,.8);
     font-family: "brandon-grotesque", sans-serif;
 }
-.text .container {
+.light .container {
     padding: 80px 70px;
 }
-.text.dark .container {
+.dark .container {
     padding: 100px 70px;
 }
-.text.dark h3, .text h3 {
+.dark h3, .light h3 {
     margin-bottom: 5px;
 }
-.text.dark h2 {
+.dark h2 {
     font-size: 34px;
     letter-spacing: .5px;
 } /* Intro */
@@ -290,8 +408,6 @@ footer li a {
 }
 footer li a:hover {
     color: #E8282E;
-}
-footer li a:hover {
     -webkit-transition: color 0.3s linear;
     -moz-transition: color 0.3s linear;
     -ms-transition: color 0.3s linear;
@@ -299,6 +415,19 @@ footer li a:hover {
     transition: color 0.3s linear;
 }
 
+/* ~~~~~ Clients ~~~~~ */
+#natural-sea section.text h3 {
+    color: #224B7C;
+}
+#natural-sea .cover {
+    background: url(/img/natural-sea/cover.jpg) 50% 50% / cover;
+}
+#natural-sea .blockquote {
+    background: url(/img/natural-sea/quote.jpg) 50% 50% / cover;
+}
+#natural-sea .info {
+    background: url(/img/natural-sea/tail.jpg) bottom right 40px no-repeat;
+}
 
 /* ~~~~~ Modal ~~~~~ */
 .modal, .backdrop {
@@ -624,7 +753,7 @@ i {
         transform: skew(20deg);
     }
     .skew img {
-        width: 900px;
+        width: 1000px;
         height: 450px;
         margin-left: -100px;
         -webkit-transform: skew(-20deg);
@@ -653,7 +782,7 @@ i {
         transform: skew(-20deg);
     }
     .study.right .skew img {
-        width: 900px;
+        width: 1000px;
         height: 450px;
         margin-left: 0;
         margin-right: -100px;
