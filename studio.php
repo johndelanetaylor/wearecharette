@@ -14,7 +14,7 @@
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/modal.php"); ?>
 
 <!-- Intro -->
-<section class="text dark">
+<section class="dark">
     <div class="container">
         <div class="row">
             <div class="twelve columns">
@@ -26,7 +26,7 @@
 </section>
 
 <!-- Method -->
-<section class="text">
+<section class="light">
     <div class="container">
         <div class="row">
             <div class="twelve columns">
