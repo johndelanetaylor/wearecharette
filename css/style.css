@@ -84,9 +84,6 @@ nav a {
 }
 nav li, nav li a, nav li.hovered, nav li.hovered a {
     -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -215,9 +212,6 @@ section.footer .four.columns:nth-child(1) h4, section.footer .four.columns:nth-c
 section.footer a:hover h4 {
     color: #66676E !important;
     -webkit-transition: color 0.3s linear;
-    -moz-transition: color 0.3s linear;
-    -ms-transition: color 0.3s linear;
-    -o-transition: color 0.3s linear;
     transition: color 0.3s linear;
 }
 
@@ -327,9 +321,6 @@ section.footer a:hover h4 {
 }
 .team .item, .team .title, .team .name {
     -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
 
@@ -378,9 +369,6 @@ input[type="email"], input[type="number"], input[type="search"], input[type="tex
     font-size: 16px;
     border: 2px solid #DEDFE6;
     -webkit-transition: border 0.3s ease;
-    -moz-transition: border 0.3s ease;
-    -ms-transition: border 0.3s ease;
-    -o-transition: border 0.3s ease;
     transition: border 0.3s ease;
 }
 input[type="email"]:focus, input[type="number"]:focus, input[type="search"]:focus, input[type="text"]:focus, input[type="tel"]:focus, input[type="url"]:focus, input[type="password"]:focus, textarea:focus, select:focus {
@@ -409,9 +397,6 @@ footer li a {
 footer li a:hover {
     color: #E8282E;
     -webkit-transition: color 0.3s linear;
-    -moz-transition: color 0.3s linear;
-    -ms-transition: color 0.3s linear;
-    -o-transition: color 0.3s linear;
     transition: color 0.3s linear;
 }
 
@@ -486,9 +471,6 @@ footer li a:hover {
 }
 .modal, .backdrop {
     -webkit-transition: opacity 0.1s linear;
-    -moz-transition: opacity 0.1s linear;
-    -ms-transition: opacity 0.1s linear;
-    -o-transition: opacity 0.1s linear;
     transition: opacity 0.1s linear;
 }
 .modal form {
@@ -605,9 +587,6 @@ i {
 /* ~~~~~ Buttons ~~~~~ */
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
     -webkit-transition: background 0.3s ease;
-    -moz-transition: background 0.3s ease;
-    -ms-transition: background 0.3s ease;
-    -o-transition: background 0.3s ease;
     transition: background 0.3s ease;
 }
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
@@ -621,44 +600,34 @@ i {
     color: #555;
     outline: 0;
     border: 1px solid #66676E;
-    -webkit-box-shadow: inset 0px 0px 0px 1px #66676E;
-    -moz-box-shadow: inset 0px 0px 0px 1px #66676E;
     box-shadow: inset 0px 0px 0px 1px #66676E;
 }
 .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
     color: #FFF;
     border-color: #E8282E;
     background: #E8282E;
-    background: -moz-linear-gradient(top, rgba(232,40,46,1) 0%, rgba(208,36,41,1) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(232,40,46,1)), color-stop(100%,rgba(208,36,41,1)));
     background: -webkit-linear-gradient(top, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
-    background: -o-linear-gradient(top, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
-    background: -ms-linear-gradient(top, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(232,40,46,1) 0%, rgba(208,36,41,1) 100%);
     background: linear-gradient(to bottom, rgba(232,40,46,1) 0%,rgba(208,36,41,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8282e', endColorstr='#d02429',GradientType=0 );
 }
 .button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
     border-color: #C62429;
-    -webkit-box-shadow: inset 0px 0px 0px 11px #C62429;
-    -moz-box-shadow: inset 0px 0px 0px 1px #C62429;
     box-shadow: inset 0px 0px 0px 1px #C62429;
     background: rgb(250,40,46);
-    background: -moz-linear-gradient(top, rgba(250,40,46,1) 0%, rgba(225,36,41,1) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(250,40,46,1)), color-stop(100%,rgba(225,36,41,1)));
     background: -webkit-linear-gradient(top, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
-    background: -o-linear-gradient(top, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
-    background: -ms-linear-gradient(top, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(250,40,46,1) 0%, rgba(225,36,41,1) 100%);
     background: linear-gradient(to bottom, rgba(250,40,46,1) 0%,rgba(225,36,41,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fa282e', endColorstr='#e12429',GradientType=0 );
 }
 .button.button-primary:active, button.button-primary:active, input[type="submit"].button-primary:active, input[type="reset"].button-primary:active, input[type="button"].button-primary:active {
     border-color: #C62429;
     background: rgb(204,35,40);
-    background: -moz-linear-gradient(top, rgba(204,35,40,1) 0%, rgba(183,31,36,1) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,35,40,1)), color-stop(100%,rgba(183,31,36,1)));
     background: -webkit-linear-gradient(top, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
-    background: -o-linear-gradient(top, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
-    background: -ms-linear-gradient(top, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(204,35,40,1) 0%, rgba(183,31,36,1) 100%);
     background: linear-gradient(to bottom, rgba(204,35,40,1) 0%,rgba(183,31,36,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc2328', endColorstr='#b71f24',GradientType=0 );
 }
@@ -666,28 +635,22 @@ i {
     color: #FFF;
     border-color: rgb(162,163,170);
     background: rgb(162,163,170);
-    background: -moz-linear-gradient(top, rgba(162,163,170,1) 0%, rgba(145,146,153,1) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(162,163,170,1)), color-stop(100%,rgba(145,146,153,1)));
     background: -webkit-linear-gradient(top, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
-    background: -o-linear-gradient(top, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
-    background: -ms-linear-gradient(top, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(162,163,170,1) 0%, rgba(145,146,153,1) 100%);
     background: linear-gradient(to bottom, rgba(162,163,170,1) 0%,rgba(145,146,153,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a2a3aa', endColorstr='#919299',GradientType=0 );
 }
 .button.button-dark:hover, button.button-dark:hover, input[type="submit"].button-dark:hover, input[type="reset"].button-dark:hover, input[type="button"].button-dark:hover, .button.button-dark:focus, button.button-dark:focus, input[type="submit"].button-dark:focus, input[type="reset"].button-dark:focus, input[type="button"].button-dark:focus {
     border-color: rgba(102,103,110,.6);
-    -webkit-box-shadow: inset 0px 0px 2px 1px rgba(102,103,110,.6);
-    -moz-box-shadow: inset 0px 0px 2px 1px rgba(102,103,110,.6);
     box-shadow: inset 0px 0px 2px 1px rgba(102,103,110,.6);
 }
 .button.button-dark:active, button.button-dark:active, input[type="submit"].button-dark:active, input[type="reset"].button-dark:active, input[type="button"].button-dark:active {
     border-color: rgb(102,103,110);
     background: rgb(102,103,110);
-    background: -moz-linear-gradient(top, rgba(102,103,110,1) 0%, rgba(92,92,99,1) 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(102,103,110,1)), color-stop(100%,rgba(92,92,99,1)));
     background: -webkit-linear-gradient(top, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
-    background: -o-linear-gradient(top, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
-    background: -ms-linear-gradient(top, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(102,103,110,1) 0%, rgba(92,92,99,1) 100%);
     background: linear-gradient(to bottom, rgba(102,103,110,1) 0%,rgba(92,92,99,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66676e', endColorstr='#5c5c63',GradientType=0 );
 }
@@ -735,10 +698,7 @@ i {
 @media (min-width: 750px) {}
 @media (min-width: 1000px) {
     .skew, .skew img, .study .seven.columns {
-        -webkit-transition: transform 0.3s;
-        -moz-transition: transform 0.3s;
-        -ms-transition: transform 0.3s;
-        -o-transition: transform 0.3s;
+        -webkit-transition: -webkit-transform 0.3s;
         transition: transform 0.3s;
     }
     .skew {
@@ -747,9 +707,7 @@ i {
         margin-right: -250px;
         position: relative;  
         -webkit-transform: skew(20deg);
-        -moz-transform: skew(20deg);
         -ms-transform: skew(20deg);
-        -o-transform: skew(20deg);
         transform: skew(20deg);
     }
     .skew img {
@@ -757,16 +715,12 @@ i {
         height: 450px;
         margin-left: -100px;
         -webkit-transform: skew(-20deg);
-        -moz-transform: skew(-20deg);
         -ms-transform: skew(-20deg);
-        -o-transform: skew(-20deg);
         transform: skew(-20deg);
     }
     .seven.columns {
         -webkit-transform: translate(90px,0);
-        -moz-transform: translate(90px,0);
         -ms-transform: translate(90px,0);
-        -o-transform: translate(90px,0);
         transform: translate(90px,0);
     }
     .study.right .skew {
@@ -776,9 +730,7 @@ i {
         margin-left: -250px;
         position: relative;  
         -webkit-transform: skew(-20deg);
-        -moz-transform: skew(-20deg);
         -ms-transform: skew(-20deg);
-        -o-transform: skew(-20deg);
         transform: skew(-20deg);
     }
     .study.right .skew img {
@@ -787,30 +739,22 @@ i {
         margin-left: 0;
         margin-right: -100px;
         -webkit-transform: skew(20deg);
-        -moz-transform: skew(20deg);
         -ms-transform: skew(20deg);
-        -o-transform: skew(20deg);
         transform: skew(20deg);
     }
     .study.right .seven.columns {
         -webkit-transform: translate(-90px,0);
-        -moz-transform: translate(-90px,0);
         -ms-transform: translate(-90px,0);
-        -o-transform: translate(-90px,0);
         transform: translate(-90px,0);
     }
     .seven.columns:hover, .seven.columns.hovered, .study.right .seven.columns:hover, .study.right .seven.columns.hovered {
         -webkit-transform: translate(0,0);
-        -moz-transform: translate(0,0);
         -ms-transform: translate(0,0);
-        -o-transform: translate(0,0);
         transform: translate(0,0);
     }
     .skew:hover, .skew:hover img, .skew.hovered, .skew.hovered img, .study.right .skew:hover, .study.right .skew:hover img, .study.right .skew.hovered, .study.right .skew.hovered img {
         -webkit-transform: skew(0);
-        -moz-transform: skew(0);
         -ms-transform: skew(0);
-        -o-transform: skew(0);
         transform: skew(0);
     }
 }
