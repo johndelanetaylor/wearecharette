@@ -41,6 +41,24 @@ $(window).scroll(function () {
 
 $(document).ready(function() {
     windowSize();
+    $('.home-slider').bxSlider({
+        slideWidth: 960,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        slideMargin: 20,
+        infiniteLoop: false,
+        hideControlOnEnd: true
+    });
+    $('.slider').bxSlider({
+        slideWidth: 850,
+        minSlides: 1,
+        maxSlides: 1,
+        moveSlides: 1,
+        slideMargin: 20,
+        infiniteLoop: false,
+        hideControlOnEnd: true
+    });
     loadWeather('St. Augustine','FL'); // Default
     if ('geolocation' in navigator) {
         navigator.geolocation.getCurrentPosition(function(position) {

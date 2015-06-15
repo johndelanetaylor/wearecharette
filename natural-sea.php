@@ -112,16 +112,12 @@
 
 <hr>
     
-<!-- Slideshow Placeholder -->
-<section class="image">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <img src="/img/natural-sea/slideshow.jpg" />
-            </div>
-        </div>
-    </div> 
-</section>
+<!-- Slider Placeholder -->
+<div class="slider">
+    <div class="slide"><img src="img/natural-sea/slide-1.jpg"></div>
+    <div class="slide"><img src="img/natural-sea/slide-2.jpg"></div>
+    <div class="slide"><img src="img/natural-sea/slide-3.jpg"></div>
+</div>
     
 <hr>
     

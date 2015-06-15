@@ -13,9 +13,17 @@
 <!-- Contact Modal -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/modal.php"); ?>
     
-<!-- Slideshow Placeholder -->
+<!-- Slider Placeholder
 <div style="text-align: center; width: 100%; margin: 20px 0 40px;">
-    <img src="img/slideshow.jpg" style="margin:auto; max-width: 100%;" />
+    <img src="img/slider.jpg" style="margin:auto; max-width: 100%;" />
+</div> -->
+
+<!-- Slider -->
+<div class="home-slider">
+    <div class="slide"><img src="img/slide-1.jpg"></div>
+    <div class="slide"><img src="img/slide-2.jpg"></div>
+    <div class="slide"><img src="img/slide-3.jpg"></div>
+    <div class="slide"><img src="img/slide-4.jpg"></div>
 </div>
     
 <!-- Case Study 1 -->
@@ -25,7 +33,7 @@
             <div class="five columns">
                 <h4>Case Study</h4>
                 <h2>City of St. Augustine</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam.</p>
                 <a class="button" href="#">View Case Study</a>
             </div>
             <div class="seven columns">

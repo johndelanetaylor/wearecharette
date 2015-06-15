@@ -106,11 +106,11 @@
                     <span class="title">Principal</span>
                 </div>
                 <div class="item">
-                    <span class="name">John Taylor</span>
+                    <span class="name">Katie Evans</span>
                     <span class="title">Designer</span>
                 </div>
                 <div class="item">
-                    <span class="name">Katie Evans</span>
+                    <span class="name">John Taylor</span>
                     <span class="title">Designer</span>
                 </div>
                 <div class="item">
