@@ -151,7 +151,7 @@
                     <li>Website Design</li>
                 </ul>
             </div>
-            <div class="one columna offset"></div>
+            <div class="one column offset"></div>
         </div>
     </div> 
 </section>
