@@ -326,14 +326,14 @@ section.footer a:hover h4 {
 
 .team .item:nth-of-type(1) { background: url(/img/team/jeff.png); }
 .team .item:nth-of-type(2) { background: url(/img/team/emily.png); }
-.team .item:nth-of-type(3) { background: url(/img/team/katie.png); }
-.team .item:nth-of-type(4) { background: url(/img/team/john.png); }
+.team .item:nth-of-type(3) { background: url(/img/team/john.png); }
+.team .item:nth-of-type(4) { background: url(/img/team/katie.png); }
 .team .item:nth-of-type(5) { background: url(/img/team/seth.png); }
 
 .team .item:nth-of-type(1):hover { background: url(/img/team/jeff-red.png); }
 .team .item:nth-of-type(2):hover { background: url(/img/team/emily-red.png); }
-.team .item:nth-of-type(3):hover { background: url(/img/team/katie-red.png); }
-.team .item:nth-of-type(4):hover { background: url(/img/team/john-red.png); }
+.team .item:nth-of-type(3):hover { background: url(/img/team/john-red.png); }
+.team .item:nth-of-type(4):hover { background: url(/img/team/katie-red.png); }
 .team .item:nth-of-type(5):hover { background: url(/img/team/seth-red.png); }
 
 .team h3, .process h3, .contact h3, .contact h4 {
