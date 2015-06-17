@@ -97,6 +97,7 @@
             <div class="twelve columns">
                 <h3>We Love Great Company Culture</h3>
                 <h4>And Our Team Rocks!</h4>
+                <p>
                 <div class="item">
                     <span class="name">Jeff Charette</span>
                     <span class="title">Principal</span>
@@ -105,6 +106,7 @@
                     <span class="name">Emily Charette</span>
                     <span class="title">Principal</span>
                 </div>
+                </p>
                 <div class="item">
                     <span class="name">Katie Evans</span>
                     <span class="title">Designer</span>
