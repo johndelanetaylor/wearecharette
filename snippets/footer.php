@@ -8,13 +8,8 @@
                 <div class="two columns">
                     <h4>Case Studies</h4>
                     <ul>
-                        <li><a href="#">Menuat</a></li>
                         <li><a href="#">Natural Sea</a></li>
-                        <li><a href="#">City of St. Augustine</a></li>
-                        <li><a href="#">1565 Artisan Coffee</a></li>
-                        <li><a href="#">Mediterranean Organic</a></li>
-                        <li><a href="#">Blue Marble Brands</a></li>
-                        <li><a href="#">Mini Me's</a></li>
+                        <li><a href="#">Happy Cup</a></li>
                     </ul>
                 </div>
                 <div class="two columns">

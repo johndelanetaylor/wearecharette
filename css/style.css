@@ -401,6 +401,8 @@ footer li a:hover {
 }
 
 /* ~~~~~ Clients ~~~~~ */
+
+/* ~~~~~ Natural Sea ~~~~~ */
 #natural-sea section.text h3 {
     color: #224B7C;
 }
@@ -412,6 +414,30 @@ footer li a:hover {
 }
 #natural-sea .info {
     background: url(/img/natural-sea/tail.jpg) bottom right 40px no-repeat;
+}
+
+/* ~~~~~ Happy Cup ~~~~~ */
+#happy-cup section.text h3 {
+    color: #892577;
+}
+#happy-cup section.text a {
+    color: #009448;
+}
+#happy-cup .cover {
+    background: url(/img/happy-cup/cover.jpg) 50% 50% / cover;
+}
+#happy-cup .full-width {
+    background: url(/img/happy-cup/background-image.jpg) 50% 50% / cover;
+    min-height: 300px;
+}
+#happy-cup .formula {
+    background-color: #F2F4DC;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#happy-cup .menu-boards {
+    background: url(/img/happy-cup/menu-boards.jpg) 50% 50% / cover;
+    min-height: 797px;
 }
 
 /* ~~~~~ Modal ~~~~~ */
