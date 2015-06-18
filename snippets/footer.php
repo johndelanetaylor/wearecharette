@@ -10,6 +10,7 @@
                     <ul>
                         <li><a href="#">Natural Sea</a></li>
                         <li><a href="#">Happy Cup</a></li>
+                        <li><a href="#">Mediterranean Organic</a></li>
                     </ul>
                 </div>
                 <div class="two columns">

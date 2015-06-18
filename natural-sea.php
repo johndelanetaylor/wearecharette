@@ -103,6 +103,14 @@
             </div>
         </div>
         <div class="row">
+            <div class="six columns">
+                <img src="/img/natural-sea/icons-1.jpg" />
+            </div>
+            <div class="six columns">
+                <img src="/img/natural-sea/icons-2.jpg" />
+            </div>
+        </div>
+        <div class="row">
             <div class="twelve columns">
                 <img src="/img/natural-sea/palette.jpg" />
             </div>
@@ -113,7 +121,7 @@
 <hr>
     
 <!-- Slider Placeholder -->
-<div class="slider">
+<div class="slider colorize">
     <div class="slide"><img src="img/natural-sea/slide-1.jpg"></div>
     <div class="slide"><img src="img/natural-sea/slide-2.jpg"></div>
     <div class="slide"><img src="img/natural-sea/slide-3.jpg"></div>
@@ -138,20 +146,18 @@
 <section class="text info">
     <div class="container">
         <div class="row">
-            <div class="two columns offset"></div>
+            <div class="one column offset"></div>
             <div class="six columns">
                 <h3>What a Splash!</h3>
                 <p>The updated design brought Natural Sea into the spotlight, and garnered interest from major world-wide retailers. This brand is already on the shelves and moving fast at Target, Whole Foods, and other natural foods retailers.</p>
             </div>
-            <div class="three columns">
+            <div class="four columns">
                 <h3>Details</h3>
-                <ul>
-                    <li>Branding</li>
-                    <li>Packaging</li>
-                    <li>Website Design</li>
-                </ul>
+                <p>Branding / Packaging / Website Design</p>
+                <br />
+                <h3>View It Live</h3>
+                <p><a href="#">NaturalSea.com</a></p>
             </div>
-            <div class="one column offset"></div>
         </div>
     </div> 
 </section>

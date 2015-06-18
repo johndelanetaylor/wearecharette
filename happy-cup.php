@@ -120,21 +120,16 @@
 <section class="text info">
     <div class="container">
         <div class="row">
-            <div class="three columns offset"></div>
-            <div class="three columns">
+            <div class="two columns offset"></div>
+            <div class="six columns">
                 <h3>Details</h3>
-                <ul>
-                    <li>Branding</li>
-                    <li>Packaging</li>
-                    <li>Website Design</li>
-                    <li>Digital Menus</li>
-                </ul>
+                <p>Branding / Packaging / Website Design / Digital Menus</p>
             </div>
             <div class="three columns">
                 <h3>View It Live</h3>
                 <a href="HappyCup.com">HappyCup.com</a>
             </div>
-            <div class="three column offset"></div>
+            <div class="one column offset"></div>
         </div>
     </div> 
 </section>
