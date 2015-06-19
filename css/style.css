@@ -418,16 +418,7 @@ footer li a:hover {
 }
 #natural-sea section.text a {
     color: #50B19C;
-    font-weight: 600;
-}
-#natural-sea .cover {
-    background: url(/img/natural-sea/cover.jpg) 50% 50% / cover;
-}
-#natural-sea .blockquote {
-    background: url(/img/natural-sea/quote.jpg) 50% 50% / cover;
-}
-#natural-sea .info {
-    background: url(/img/natural-sea/tail.jpg) bottom right 40px no-repeat;
+    font-weight: 500;
 }
 #natural-sea .bx-wrapper .bx-prev {
 	left: 10px;
@@ -449,6 +440,15 @@ footer li a:hover {
     transform: rotate(45deg);
     margin-right: 0.5em;
 }
+#natural-sea .cover {
+    background: url(/img/natural-sea/cover.jpg) 50% 50% / cover;
+}
+#natural-sea .blockquote {
+    background: url(/img/natural-sea/quote.jpg) 50% 50% / cover;
+}
+#natural-sea .info {
+    background: url(/img/natural-sea/tail.jpg) bottom right 40px no-repeat;
+}
 
 /* ~~~~~ Happy Cup ~~~~~ */
 #happy-cup section.text h3 {
@@ -456,23 +456,7 @@ footer li a:hover {
 }
 #happy-cup section.text a {
     color: #009448;
-    font-weight: 600;
-}
-#happy-cup .cover {
-    background: url(/img/happy-cup/cover.jpg) 50% 50% / cover;
-}
-#happy-cup .full-width {
-    background: url(/img/happy-cup/background-image.jpg) 50% 50% / cover;
-    min-height: 300px;
-}
-#happy-cup .formula {
-    background-color: #F2F4DC;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-#happy-cup .menu-boards {
-    background: url(/img/happy-cup/menu-boards.jpg) 50% 50% / cover;
-    min-height: 797px;
+    font-weight: 500;
 }
 #happy-cup .bx-wrapper .bx-prev {
 	left: 10px;
@@ -494,6 +478,22 @@ footer li a:hover {
     transform: rotate(45deg);
     margin-right: 0.5em;
 }
+#happy-cup .cover {
+    background: url(/img/happy-cup/cover.jpg) 50% 50% / cover;
+}
+#happy-cup .full-width {
+    background: url(/img/happy-cup/background-image.jpg) 50% 50% / cover;
+    min-height: 300px;
+}
+#happy-cup .formula {
+    background-color: #F2F4DC;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#happy-cup .menu-boards {
+    background: url(/img/happy-cup/menu-boards.jpg) 50% 50% / cover;
+    min-height: 797px;
+}
 
 /* ~~~~~ Mediterranean Organic ~~~~~ */
 #mediterranean-organic section.text h3 {
@@ -501,25 +501,7 @@ footer li a:hover {
 }
 #mediterranean-organic section.text a {
     color: #139CD6;
-    font-weight: 600;
-}
-#mediterranean-organic .cover {
-    background: url(/img/mediterranean-organic/cover.jpg) 50% 50% / cover;
-}
-#mediterranean-organic .blockquote {
-    background: url(/img/mediterranean-organic/quote.jpg) 50% 50% / cover;
-    height: 450px;
-}
-#mediterranean-organic .pad {
-    padding-top: 200px;
-}
-#mediterranean-organic .ads {
-    background-color: #D3E8E2;
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-#mediterranean-organic .info {
-    background: url(/img/mediterranean-organic/olive.jpg) bottom 80px left 160px no-repeat;
+    font-weight: 500;
 }
 #mediterranean-organic .bx-wrapper .bx-prev {
 	left: 10px;
@@ -540,6 +522,92 @@ footer li a:hover {
     border-top: 0.2em solid #F7B014;
     transform: rotate(45deg);
     margin-right: 0.5em;
+}
+#mediterranean-organic .cover {
+    background: url(/img/mediterranean-organic/cover.jpg) 50% 50% / cover;
+}
+#mediterranean-organic .blockquote {
+    background: url(/img/mediterranean-organic/quote.jpg) 50% 50% / cover;
+    height: 450px;
+}
+#mediterranean-organic .pad {
+    padding-top: 200px;
+}
+#mediterranean-organic .ads {
+    background-color: #D3E8E2;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+#mediterranean-organic .info {
+    background: url(/img/mediterranean-organic/olive.jpg) bottom 80px left 160px no-repeat;
+}
+
+/* ~~~~~ Tumaros ~~~~~ */
+#tumaros section.text h3 {
+    color: #EF3E42;
+}
+#tumaros section.text a {
+    color: #FDBB30;
+    font-weight: 500;
+}
+#tumaros .bx-wrapper .bx-prev {
+	left: 10px;
+	/* background: url(../img/prev.png) no-repeat; */
+    width: 1.6em;
+    height: 1.6em;
+    border-right: 0.2em solid #EF3E42;
+    border-top: 0.2em solid #EF3E42;
+    transform: rotate(225deg);
+    margin-right: 0.5em;
+}
+#tumaros .bx-wrapper .bx-next {
+	right: 10px;
+	/* background: url(../img/next.png) no-repeat; */
+    width: 1.6em;
+    height: 1.6em;
+    border-right: 0.2em solid #EF3E42;
+    border-top: 0.2em solid #EF3E42;
+    transform: rotate(45deg);
+    margin-right: 0.5em;
+}
+#tumaros .cover {
+    background: url(/img/tumaros/cover.jpg) 50% 50% / cover;
+}
+#tumaros .full-width-1 {
+    background: url(/img/tumaros/background-image-1.jpg) 50% 50% / cover;
+    min-height: 500px;
+}
+#tumaros .pad-bot {
+    padding-bottom: 40px;
+}
+#tumaros .web img {
+    border-left: 1px solid #EDEDED;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+}
+#tumaros .web-head {
+    width: 100%;
+    height: 20px;
+    background: #EDEDED;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+}
+#tumaros .circles {
+    width: 10px;
+    height: 10px;
+    margin-left: 8px;
+    margin-top: 5px;
+    float: left;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+#tumaros .full-width-2 {
+    background: url(/img/tumaros/background-image-2.jpg) 50% 50% / cover;
+    min-height: 500px;
+}
+#tumaros .info {
+    background: url(/img/tumaros/burrito.jpg) bottom 10px left 160px no-repeat;
 }
 
 /* ~~~~~ Modal ~~~~~ */
