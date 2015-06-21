@@ -401,7 +401,6 @@ footer li a:hover {
 }
 
 /* ~~~~~ Clients ~~~~~ */
-
 .left img {
     float: left;
 }
@@ -421,24 +420,15 @@ footer li a:hover {
     font-weight: 500;
 }
 #natural-sea .bx-wrapper .bx-prev {
-	left: 10px;
-	/* background: url(../img/prev.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #224B7C;
     border-top: 0.2em solid #224B7C;
-    transform: rotate(225deg);
-    margin-right: 0.5em;
 }
 #natural-sea .bx-wrapper .bx-next {
-	right: 10px;
-	/* background: url(../img/next.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #224B7C;
     border-top: 0.2em solid #224B7C;
-    transform: rotate(45deg);
-    margin-right: 0.5em;
+}
+#natural-sea .bx-wrapper .bx-pager.bx-default-pager a:hover, #natural-sea .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #224B7C;
 }
 #natural-sea .cover {
     background: url(/img/natural-sea/cover.jpg) 50% 50% / cover;
@@ -458,25 +448,19 @@ footer li a:hover {
     color: #009448;
     font-weight: 500;
 }
+#happy-cup .bx-wrapper {
+    margin-top: 60px;
+}
 #happy-cup .bx-wrapper .bx-prev {
-	left: 10px;
-	/* background: url(../img/prev.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #892577;
     border-top: 0.2em solid #892577;
-    transform: rotate(225deg);
-    margin-right: 0.5em;
 }
 #happy-cup .bx-wrapper .bx-next {
-	right: 10px;
-	/* background: url(../img/next.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #892577;
     border-top: 0.2em solid #892577;
-    transform: rotate(45deg);
-    margin-right: 0.5em;
+}
+#happy-cup .bx-wrapper .bx-pager.bx-default-pager a:hover, #happy-cup .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #892577;
 }
 #happy-cup .cover {
     background: url(/img/happy-cup/cover.jpg) 50% 50% / cover;
@@ -491,8 +475,8 @@ footer li a:hover {
     padding-bottom: 0;
 }
 #happy-cup .menu-boards {
-    background: url(/img/happy-cup/menu-boards.jpg) 50% 50% / cover;
-    min-height: 797px;
+    background: url(/img/happy-cup/menu-boards.jpg) 50% 100% / cover;
+    min-height: 600px;
 }
 
 /* ~~~~~ Mediterranean Organic ~~~~~ */
@@ -504,24 +488,15 @@ footer li a:hover {
     font-weight: 500;
 }
 #mediterranean-organic .bx-wrapper .bx-prev {
-	left: 10px;
-	/* background: url(../img/prev.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #F7B014;
     border-top: 0.2em solid #F7B014;
-    transform: rotate(225deg);
-    margin-right: 0.5em;
 }
 #mediterranean-organic .bx-wrapper .bx-next {
-	right: 10px;
-	/* background: url(../img/next.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #F7B014;
     border-top: 0.2em solid #F7B014;
-    transform: rotate(45deg);
-    margin-right: 0.5em;
+}
+#mediterranean-organic .bx-wrapper .bx-pager.bx-default-pager a:hover, #mediterranean-organic .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #F7B014;
 }
 #mediterranean-organic .cover {
     background: url(/img/mediterranean-organic/cover.jpg) 50% 50% / cover;
@@ -537,6 +512,18 @@ footer li a:hover {
     background-color: #D3E8E2;
     padding-top: 70px;
     padding-bottom: 70px;
+    position: relative;
+}
+#mediterranean-organic .ads:after {
+    content: '';
+    background: url('/img/mediterranean-organic/wave-overlay.png') center center no-repeat;
+    height: 285px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    z-index: 100;
+    position: absolute;
+    bottom: 0;
 }
 #mediterranean-organic .info {
     background: url(/img/mediterranean-organic/olive.jpg) bottom 80px left 160px no-repeat;
@@ -551,24 +538,15 @@ footer li a:hover {
     font-weight: 500;
 }
 #tumaros .bx-wrapper .bx-prev {
-	left: 10px;
-	/* background: url(../img/prev.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #EF3E42;
     border-top: 0.2em solid #EF3E42;
-    transform: rotate(225deg);
-    margin-right: 0.5em;
 }
 #tumaros .bx-wrapper .bx-next {
-	right: 10px;
-	/* background: url(../img/next.png) no-repeat; */
-    width: 1.6em;
-    height: 1.6em;
     border-right: 0.2em solid #EF3E42;
     border-top: 0.2em solid #EF3E42;
-    transform: rotate(45deg);
-    margin-right: 0.5em;
+}
+#tumaros .bx-wrapper .bx-pager.bx-default-pager a:hover, #tumaros .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #EF3E42;
 }
 #tumaros .cover {
     background: url(/img/tumaros/cover.jpg) 50% 50% / cover;
