@@ -83,3 +83,7 @@ $(document).ready(function() {
         });
     } // Desktop size and up
 });
+
+window.onload = function() {
+    $(document.body).scrollTop(0);
+};
