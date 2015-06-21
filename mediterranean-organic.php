@@ -114,8 +114,8 @@
     
 <hr>
     
-<!-- Slider Placeholder -->
-<div class="slider color">
+<!-- Slider -->
+<div class="slider">
     <div class="slide"><img src="img/mediterranean-organic/slide-4.jpg"></div>
     <div class="slide"><img src="img/mediterranean-organic/slide-5.jpg"></div>
 </div>

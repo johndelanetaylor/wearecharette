@@ -98,26 +98,24 @@
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
-.bx-wrapper .bx-prev {
-	left: 10px;
-	/* background: url(../img/prev.png) no-repeat; */
-    width: 0.4em;
-    height: 0.4em;
-    border-right: 0.2em solid #e8282e;
-    border-top: 0.2em solid #e8282e;
-    transform: rotate(225deg);
+.bx-wrapper .bx-prev, .bx-wrapper .bx-next {
+    width: 1.6em;
+    height: 1.6em;
+    border-right: 0.2em solid #E8282E;
+    border-top: 0.2em solid #E8282E;
     margin-right: 0.5em;
 }
-
+.bx-wrapper .bx-prev {
+    left: 20px;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
 .bx-wrapper .bx-next {
-	right: 10px;
-	/* background: url(../img/next.png) no-repeat; */
-    width: 0.4em;
-    height: 0.4em;
-    border-right: 0.2em solid #e8282e;
-    border-top: 0.2em solid #e8282e;
+    right: 10px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-    margin-right: 0.5em;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -127,8 +125,8 @@
 	outline: 0;
 	width: 32px;
 	height: 32px;
-	text-indent: -9999px;
-	z-index: 9999;
+	z-index: 100;
+    cursor: pointer;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {

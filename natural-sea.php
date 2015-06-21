@@ -121,7 +121,7 @@
 <hr>
     
 <!-- Slider Placeholder -->
-<div class="slider colorize">
+<div class="slider">
     <div class="slide"><img src="img/natural-sea/slide-1.jpg"></div>
     <div class="slide"><img src="img/natural-sea/slide-2.jpg"></div>
     <div class="slide"><img src="img/natural-sea/slide-3.jpg"></div>
