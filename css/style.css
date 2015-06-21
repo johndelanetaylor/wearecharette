@@ -474,6 +474,9 @@ footer li a:hover {
     padding-top: 0;
     padding-bottom: 0;
 }
+#happy-cup .formula img {
+    margin-bottom: -8px;
+}
 #happy-cup .menu-boards {
     background: url(/img/happy-cup/menu-boards.jpg) 50% 100% / cover;
     min-height: 600px;
