@@ -139,7 +139,7 @@
     <div class="container">
         <div class="row">
             <div class="four columns">
-                <a href="#">
+                <a href="/mediterranean-organic">
                     <img src="/img/icons/arrow-left.png" />
                     <h4>Mediterranean Organic</h4>
                 </a>
@@ -150,9 +150,9 @@
                 </a>
             </div>
             <div class="four columns">
-                <a href="#">
+                <a href="/natural-sea">
                     <img src="/img/icons/arrow-right.png" />
-                    <h4>City of St. Augustine</h4>
+                    <h4>Natural Sea</h4>
                 </a>
             </div>
         </div>

@@ -8,9 +8,9 @@
                 <div class="two columns">
                     <h4>Case Studies</h4>
                     <ul>
-                        <li><a href="#">Natural Sea</a></li>
-                        <li><a href="#">Happy Cup</a></li>
-                        <li><a href="#">Mediterranean Organic</a></li>
+                        <li><a href="/happy-cup">Happy Cup</a></li>
+                        <li><a href="/natural-sea">Natural Sea</a></li>
+                        <li><a href="/mediterranean-organic">Mediterranean Organic</a></li>
                     </ul>
                 </div>
                 <div class="two columns">

@@ -32,9 +32,9 @@
         <div class="row">
             <div class="five columns">
                 <h4>Case Study</h4>
-                <h2>City of St. Augustine</h2>
+                <h2>Happy Cup</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam.</p>
-                <a class="button" href="#">View Case Study</a>
+                <a class="button" href="/happy-cup">View Case Study</a>
             </div>
             <div class="seven columns">
                 <div class="skew">
@@ -70,9 +70,9 @@
         <div class="row">
             <div class="five columns">
                 <h4>Case Study</h4>
-                <h2>Menuat</h2>
+                <h2>Mediterranean Organic</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</p>
-                <a class="button" href="#">View Case Study</a>
+                <a class="button" href="/mediterranean-organic">View Case Study</a>
             </div>
             <div class="seven columns">
                 <div class="skew">
