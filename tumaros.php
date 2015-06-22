@@ -45,6 +45,7 @@
 <div class="slider color">
     <div class="slide"><img src="img/tumaros/slide-1.jpg"></div>
     <div class="slide"><img src="img/tumaros/slide-2.jpg"></div>
+    <div class="slide"><img src="img/tumaros/slide-3.jpg"></div>
 </div>
     
     
@@ -88,7 +89,7 @@
                     <div class="circles"></div>
                     <div class="circles"></div>
                 </div>
-                <a href="#" target="_blank"><img src="/img/tumaros/web-1.jpg" /></a>
+                <a class="web" href="#" target="_blank"><img src="/img/tumaros/web-1.jpg" /></a>
             </div>
         </div>
     </div> 

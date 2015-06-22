@@ -38,16 +38,7 @@
     </div> 
 </section>
     
-<!-- Block Quote -->
-<section class="blockquote">
-    <div class="container">
-        <div class="row">
-            <div class="twelve columns">
-                <h2>“The product itself is excellent: sustainably harvested, delicious and nutritious; but the packaging left consumers feeling like they were buying something from the last century.”</h2>
-            </div>
-        </div>
-    </div> 
-</section>
+<hr>
     
 <!-- 8 Col Text -->
 <section class="text">
@@ -77,7 +68,17 @@
     </div> 
 </section>
     
-<hr>
+    
+<!-- Block Quote -->
+<section class="blockquote">
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h2>“The product itself is excellent: sustainably harvested, delicious and nutritious; but the packaging left consumers feeling like they were buying something from the last century.”</h2>
+            </div>
+        </div>
+    </div> 
+</section>
     
 <!-- 8 Col Text -->
 <section class="text">
@@ -125,6 +126,9 @@
     <div class="slide"><img src="img/natural-sea/slide-1.jpg"></div>
     <div class="slide"><img src="img/natural-sea/slide-2.jpg"></div>
     <div class="slide"><img src="img/natural-sea/slide-3.jpg"></div>
+    <div class="slide"><img src="img/natural-sea/slide-4.jpg"></div>
+    <div class="slide"><img src="img/natural-sea/slide-5.jpg"></div>
+    <div class="slide"><img src="img/natural-sea/slide-6.jpg"></div>
 </div>
     
 <hr>
@@ -134,7 +138,12 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <a href="http://naturalsea.com" target="_blank"><img src="/img/natural-sea/web.jpg" /></a>
+                <div class="web-head">
+                    <div class="circles"></div>
+                    <div class="circles"></div>
+                    <div class="circles"></div>
+                </div>
+                <a class="web" href="http://naturalsea.com" target="_blank"><img src="/img/natural-sea/web.jpg" /></a>
             </div>
         </div>
     </div> 

@@ -128,11 +128,13 @@
 <section id="contact" class="contact">
     <div class="container">
         <div class="row">
-            <div class="twelve columns">
+            <div class="two columns offset"></div>
+            <div class="eight columns">
                 <h3>Get In Touch</h3>
                 <h4>And Say Hi</h4>
                 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/contact.php"); ?>
             </div>
+            <div class="two columns offset"></div>
         </div>
     </div> 
 </section>

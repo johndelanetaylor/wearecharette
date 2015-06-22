@@ -81,14 +81,17 @@
         <div class="row">
             <div class="three columns center">
                 <h3>Primary Color</h3>
+                <br />
                 <img src="/img/mediterranean-organic/color-1.jpg" />
             </div>
             <div class="four columns center">
                 <h3>Secondary Wave Colors</h3>
+                <br />
                 <img src="/img/mediterranean-organic/color-2.jpg" />
             </div>
             <div class="five columns center">
                 <h3>Tertiary Color Pops</h3>
+                <br />
                 <img src="/img/mediterranean-organic/color-3.jpg" />
             </div>
         </div>

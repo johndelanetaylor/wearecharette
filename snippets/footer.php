@@ -28,6 +28,7 @@
                         <li><a href="/studio#contact">Contact</a></li>
                         <li><a href="https://www.facebook.com/Wearecharette" target="_blank">Facebook</a></li>
                         <li><a href="https://twitter.com/wearecharette" target="_blank">Twitter</a></li>
+                        <li><a href="https://instagram.com/wearecharette" target="_blank">Instagram</a></li>
                     </ul>
                 </div>
             </div>
