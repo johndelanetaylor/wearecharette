@@ -20,12 +20,12 @@
             <div class="five columns">
                 <h4>Case Study</h4>
                 <h2>Happy Cup</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam.</p>
+                <p>Happy Cup is the place for homespun food and frozen yogurt made with natural and organic ingredients - the way it should be!</p>
                 <a class="button" href="/happy-cup">View Case Study</a>
             </div>
             <div class="seven columns">
                 <div class="skew">
-                    <img src="img/projects/default.jpg" />
+                    <img src="img/projects/happy-cup.jpg" />
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@
             <div class="five columns">
                 <h4>Case Study</h4>
                 <h2>Natural Sea</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</p>
+                <p>Natural Sea is sensible and sustainably harvested seafood that contains no preservatives and is ocean friendly. Take some Natural Sea with you on your next adventure!</p>
                 <a class="button" href="/natural-sea">View Case Study</a>
             </div>
             <div class="seven columns">
@@ -58,12 +58,12 @@
             <div class="five columns">
                 <h4>Case Study</h4>
                 <h2>Mediterranean Organic</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit.</p>
+                <p>From orchards that pre-date the Roman Empire come the fantastic fruits and veggies that make Mediterranean Organic.</p>
                 <a class="button" href="/mediterranean-organic">View Case Study</a>
             </div>
             <div class="seven columns">
                 <div class="skew">
-                    <img src="img/projects/default.jpg" />
+                    <img src="img/projects/med-org.jpg" />
                 </div>
             </div>
         </div>

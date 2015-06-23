@@ -19,7 +19,7 @@
         <div class="row">
             <div class="twelve columns">
                 <h3>About Us</h3>
-                <h2>We are inspired by the amazing people we get to work with</h2>
+                <h2>We are inspired by the amazing people we get to work with.</h2>
             </div>
         </div>
     </div> 

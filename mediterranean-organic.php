@@ -71,6 +71,7 @@
     <div class="slide"><img src="img/mediterranean-organic/slide-1.jpg"></div>
     <div class="slide"><img src="img/mediterranean-organic/slide-2.jpg"></div>
     <div class="slide"><img src="img/mediterranean-organic/slide-3.jpg"></div>
+    <div class="slide"><img src="img/mediterranean-organic/slide-4.jpg"></div>
 </div>
     
 <hr>
@@ -119,8 +120,13 @@
     
 <!-- Slider -->
 <div class="slider">
-    <div class="slide"><img src="img/mediterranean-organic/slide-4.jpg"></div>
     <div class="slide"><img src="img/mediterranean-organic/slide-5.jpg"></div>
+    <div class="slide"><img src="img/mediterranean-organic/slide-6.jpg"></div>
+    <div class="slide"><img src="img/mediterranean-organic/slide-7.jpg"></div>
+    <div class="slide"><img src="img/mediterranean-organic/slide-8.jpg"></div>
+    <div class="slide"><img src="img/mediterranean-organic/slide-9.jpg"></div>
+    <div class="slide"><img src="img/mediterranean-organic/slide-10.jpg"></div>
+    <div class="slide"><img src="img/mediterranean-organic/slide-11.jpg"></div>
 </div>
     
 <!-- 4 Col Images -->
@@ -170,9 +176,9 @@
                 <h3>Details</h3>
                 <p>Branding / Packaging / Website Design</p>
                 <br />
-                <h3>View It Live</h3>
-                <p><a href="HappyCup.com">HappyCup.com</a></p>
-                <br />
+                <!-- <h3>View It Live</h3>
+                <p><a href="MediterraneanOrganic.com">MediterraneanOrganic.com</a></p>
+                <br />-->
                 <h3>In Store</h3>
                 <p>We are so excited to see more of this gorgeous brand at Whole Foods and most national grocery store chains.</p>
             </div>

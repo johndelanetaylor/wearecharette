@@ -143,7 +143,7 @@
                     <div class="circles"></div>
                     <div class="circles"></div>
                 </div>
-                <a class="web" href="http://naturalsea.com" target="_blank"><img src="/img/natural-sea/web.jpg" /></a>
+                <a class="web" href="http://naturalsea.com" target="_blank"><img src="/img/natural-sea/website.jpg" /></a>
             </div>
         </div>
     </div> 
@@ -164,8 +164,8 @@
                 <h3>Details</h3>
                 <p>Branding / Packaging / Website Design</p>
                 <br />
-                <h3>View It Live</h3>
-                <p><a href="#">NaturalSea.com</a></p>
+                <!-- <h3>View It Live</h3>
+                <p><a href="#">NaturalSea.com</a></p>-->
             </div>
         </div>
     </div> 

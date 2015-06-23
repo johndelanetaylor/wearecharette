@@ -108,7 +108,7 @@
             </div>
             <div class="three columns">
                 <h3>View It Live</h3>
-                <p><a href="#">Tumaros.com</a></p>
+                <p><a href="http://www.tumaros.com/">Tumaros.com</a></p>
             </div>
             <div class="two columns offset"></div>
         </div>

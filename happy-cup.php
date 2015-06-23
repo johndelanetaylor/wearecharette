@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
-<?php $pageTitle = 'Happy Cup'; ?>
+<?php $pageTitle = 'HappyCup'; ?>
     
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
@@ -18,7 +18,7 @@
     <div class="container">
         <div class="row">
             <div class="twelve columns">
-                <h1>Happy Cup</h1>
+                <h1>HappyCup</h1>
             </div>
         </div>
     </div> 
@@ -30,7 +30,7 @@
         <div class="row">
             <div  class="six columns">
                 <h3>Get Your Health in Gear</h3>
-                <p>Happy Cup was refreshing their menu to include lots of healthy meal options like salads and wraps to compliment their AMAZING organic homemade frozen yogurt bar. They called on We Are Charette to help establish them as a healthy community hub, revamping messaging, positioning, and branding. Since the owner Aaron is a cyclist and an engineer by trade, we thought gears were the perfect visual to communicate Happy Cup’s DIY health style. Geometry plays a big part in illustration, and we worked hard to show Aaron’s exacting personality. The resulting identity suite is upbeat, precise, and full of optimistic messages about health and happiness.</p>
+                <p>HappyCup was refreshing their menu to include lots of healthy meal options like salads and wraps to compliment their AMAZING organic homemade frozen yogurt bar. They called on We Are Charette to help establish them as a healthy community hub, revamping messaging, positioning, and branding. Since the owner Aaron is a cyclist and an engineer by trade, we thought gears were the perfect visual to communicate Happy Cup’s DIY health style. Geometry plays a big part in illustration, and we worked hard to show Aaron’s exacting personality. The resulting identity suite is upbeat, precise, and full of optimistic messages about health and happiness.</p>
             </div>
             <div class="six columns">
                 <img src="/img/happy-cup/logo-1.jpg" />
@@ -126,8 +126,8 @@
                 <p>Branding / Packaging / Website Design / Digital Menus</p>
             </div>
             <div class="three columns">
-                <h3>View It Live</h3>
-                <a href="HappyCup.com">HappyCup.com</a>
+                <h3>View Their Live Menus</h3>
+                <a href="http://menuat.com/happycup">HappyCup Menus</a>
             </div>
             <div class="one column offset"></div>
         </div>

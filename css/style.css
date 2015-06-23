@@ -525,11 +525,11 @@ footer li a:hover {
     background: url(/img/mediterranean-organic/cover.jpg) 50% 50% / cover;
 }
 #mediterranean-organic .blockquote {
-    background: url(/img/mediterranean-organic/quote.jpg) 50% 50% / cover;
-    height: 450px;
+    background: url(/img/mediterranean-organic/waves.jpg) 50% 50% / cover;
+    height: 525px;
 }
 #mediterranean-organic .pad {
-    padding-top: 200px;
+    padding-top: 250px;
 }
 #mediterranean-organic .ads {
     background-color: #D3E8E2;
@@ -539,7 +539,7 @@ footer li a:hover {
 }
 #mediterranean-organic .ads:after {
     content: '';
-    background: url('/img/mediterranean-organic/wave-overlay.png') center center no-repeat;
+    background: url('/img/mediterranean-organic/wave-overlay-2.png') center center no-repeat;
     height: 285px;
     width: 100%;
     max-width: 100%;
