@@ -40,3 +40,4 @@
     <script src="js/simpleWeather.min.js"></script>
     <script src="js/bxslider.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/weare.js"></script>

@@ -42,7 +42,7 @@
     <div class="container">
         <div class="row">
             <div class="eight columns">
-                <img src="img/team.png" />
+                <img src="img/work.jpg" />
             </div>
             <div class="four columns">
                 <h4>Our Services</h4>

@@ -19,12 +19,45 @@
 </div> -->
 
 <!-- Slider -->
-<div class="home-slider">
+<!-- <div class="home-slider">
     <div class="slide"><img src="img/slide-1.jpg"></div>
     <div class="slide"><img src="img/slide-2.jpg"></div>
     <div class="slide"><img src="img/slide-3.jpg"></div>
     <div class="slide"><img src="img/slide-4.jpg"></div>
-</div>
+</div>-->
+    
+<!-- We are... -->
+<section class="weare">
+    <div class="container">
+        <div class="twelve columns">
+            <h1>We are</h1>
+            <ul>
+                <li id="content-1">designers</li>
+                <li id="content-2">developers</li>
+                <li id="content-3">thinkers</li>
+                <li id="content-4">problem solvers</li>
+                <li id="content-5">rad</li>
+                <li id="content-6">charette</li>
+            </ul>
+        </div>
+        
+  <!--      <div class="six columns left">
+            <div class="left">
+                <p>we are</p>
+            </div>
+        </div>
+        <div class="six columns right">
+            <ul>
+                <li id="content-1">designers</li>
+                <li id="content-2">developers</li>
+                <li id="content-3">thinkers</li>
+                <li id="content-4">problem solvers</li>
+                <li id="content-5">rad</li>
+                <li id="content-6">charette</li>
+            </ul>
+        </div>
+    </div>-->
+</section>
     
 <!-- Case Study 1 -->
 <section class="study">
