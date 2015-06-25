@@ -15,7 +15,7 @@
                 <option value="2">$1,000 - $5,000</option>
                 <option value="3">$5,000 - $15,000</option>
                 <option value="4">Over $15,000</option>
-                <option value="5">Unspecified</option>
+                <option value="5">just want to talk</option>
             </select>
         </div>
         <div class="six columns">
@@ -24,11 +24,12 @@
                 <option value="1">Less than 6 Weeks</option>
                 <option value="2">6 Weeks - 3 Months</option>
                 <option value="3">3 Months - 6 Months</option>
-                <option value="4">Ongoing</option>
-                <option value="5">Unspecified</option>
+                <option value="4">need a pro in our corner</option>
+                <option value="5">just want to talk</option>
             </select>
         </div>
     </div>
     <textarea class="u-full-width" placeholder="Tell us about your project. This will help us determine how we can work together." required></textarea>
+    <textarea class="u-full-width" placeholder="Color spaminator says, tell us: Yellow + Blue = (pink or green)" required></textarea>
     <input class="button-primary large" type="submit" value="Send">
 </form>

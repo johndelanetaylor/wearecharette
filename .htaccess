@@ -1,3 +1,23 @@
-RewriteEngine On
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^www.wearecharette.com [NC]
+RewriteRule ^(.*)$ http://wearecharette.com/$1 [L,R=301,NC]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+Redirect 301 /our-work.html /work
+Redirect 301 /our-people.html /studio
+Redirect 301 /contact-us.html /studio#contact
+
+AddType font/ttf .ttf
+AddType font/eot .eot
+AddType font/otf .otf
+AddType application/x-font-woff .woff
+AddType image/vnd.microsoft.icon .cur .ico
+
+<FilesMatch "\.(ttf|otf|eot|woff)$">
+    <IfModule mod_headers.c>
+        Header set Access-Control-Allow-Origin "*"
+    </IfModule>
+</FilesMatch>
