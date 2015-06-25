@@ -130,6 +130,9 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     padding-left: 15px;
     color: #E8282E;
 }
+.cycle ul {
+    margin-bottom: 0;
+}
 
 /* ~~~~~ Work ~~~~~ */
 .study {
@@ -709,9 +712,9 @@ footer li a:hover {
     font-family: 'weather';
     src: url('/fonts/weather-icons.eot');
     src: url('/fonts/weather-icons.eot?#iefix') format('embedded-opentype'),
-         url('/fonts/weather-icons.woff') format('woff'),
-         url('/fonts/weather-icons.ttf') format('truetype'),
-         url('/fonts/weather-icons.svg#artill_clean_weather_iconsRg') format('svg');
+        url('/fonts/weather-icons.woff') format('woff'),
+        url('/fonts/weather-icons.ttf') format('truetype'),
+        url('/fonts/weather-icons.svg#artill_clean_weather_iconsRg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -881,7 +884,6 @@ i {
 }
 
 /* ~~~~~ Media Queries ~~~~~ */
-@media (min-width: 400px) {}
 @media (min-width: 550px) {
     nav ul {
         width: auto;
@@ -915,7 +917,6 @@ i {
         float: right;
     }
 }
-@media (min-width: 750px) {}
 @media (min-width: 1000px) {
     .skew, .skew img, .study .seven.columns {
         -webkit-transition: -webkit-transform 0.3s;
@@ -978,4 +979,237 @@ i {
         transform: skew(0);
     }
 }
-@media (min-width: 1200px) {}
+@media (max-width: 999px) {
+    #happy-cup img, #mediterranean-organic img, #natural-sea img {
+        max-width: 100%;
+    }
+    .info {
+        background: none !important;
+    }
+    .cycle {
+        padding: 140px 0;
+    }
+    .cycle h1, .cycle ul li {
+        font-size: 70px;
+    }
+    #happy-cup .menu-boards {
+        min-height: 420px;
+    }
+    section.footer .four.columns:nth-child(1) h4, section.footer .four.columns:nth-child(3) h4 {
+        width: 70%;
+    }
+    section.footer .four.columns {
+        height: 160px;
+        padding: 70px 0;
+    }
+    section.footer .four.columns img {
+        margin-top: 0;
+    }
+    .container {
+        width: 90%;
+    }
+    footer {
+        min-height: 300px;
+    }
+    .study {
+        height: auto;
+    }
+}
+@media (max-width: 749px) {
+    .cycle {
+        padding: 120px 0;
+    }
+    .cycle h1, .cycle ul li {
+        font-size: 60px;
+    }
+    #happy-cup .menu-boards {
+        min-height: 340px;
+    }
+    section.footer h4 {
+        font-size: 14px;
+    }
+    section.footer .container {
+        width: 100%;
+    }
+    section.footer .four.columns:nth-child(1) h4, section.footer .four.columns:nth-child(3) h4 {
+        width: 60%;
+    }
+    section.footer .four.columns {
+        height: 150px;
+        padding: 60px 0;
+    }
+    .team .item {
+        margin: 25px 40px;
+    }
+    nav .container {
+        height: auto;
+    }
+}
+@media (max-width: 549px) {
+    body {
+        font-size: 16px;
+    }
+    .cycle {
+        padding: 100px 0;
+    }
+    .cycle h1, .cycle ul li {
+        font-size: 50px;
+    }
+    h1 { font-size: 38px; }
+    h2 { font-size: 32px; }
+    h3 { font-size: 26px; }
+    h4 { font-size: 14px; }
+    .skew {
+        margin-left: -6%;
+        margin-right: -6%;
+    }
+    .skew img {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    footer {
+        padding-top: 60px;
+    }
+    .dark .container, .light .container {
+        padding: 80px 20px;
+    }
+    .light p {
+        margin-bottom: 0;
+    }
+    .dark h2 {
+        font-size: 25px;
+    }
+    .services .container {
+        width: 100%;
+    }
+    .services img {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+    .services .six.columns {
+        padding: 60px 20px 0;
+    }
+    .process h3 {
+        margin-bottom: 40px;
+    }
+    .process .block {
+        width: 100%;
+        padding: 15px 0;
+    }
+    .team h4, .team {
+        padding-bottom: 40px;
+    }
+    .team p {
+        display: none;
+    }
+    section.cover {
+        height: 140px;
+        padding-top: 100px;
+    }
+    section.text p {
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+    }
+    .info .four.columns p {
+        margin-bottom: 0;
+    }
+    #happy-cup .full-width {
+        min-height: 200px;
+    }
+    #happy-cup .menu-boards {
+        min-height: 240px;
+    }
+    .image .three.columns {
+        width: 50%;
+    }
+    section.footer .four.columns:nth-child(1) h4, section.footer .four.columns:nth-child(3) h4 {
+        display: none;
+    }
+    section.footer .four.columns {
+        width: 33%;
+    }
+    section.footer .four.columns:nth-child(1) img, section.footer .four.columns:nth-child(1) h4, section.footer .four.columns:nth-child(3) img, section.footer .four.columns:nth-child(3) h4 {
+        float: none;
+    }
+    section.blockquote h2 {
+        font-size: 20px;
+        line-height: 1.4;
+        padding: 40px 0;
+    }
+    #mediterranean-organic .pad {
+        padding-top: 120px;
+    }
+    #mediterranean-organic .blockquote {
+        height: 360px;
+    }
+    #mediterranean-organic .text .center:not(:last-child) {
+        margin-bottom: 40px;
+    }
+    #mediterranean-organic .six.columns img[src*=logo] {
+        margin-bottom: 60px;
+    }
+    .right img {
+        float: none;
+    }
+}
+@media (max-width: 399px) {
+    body {
+        font-size: 15px;
+        line-height: 1.4;
+    }
+    nav .container, .container {
+        width: 100%;
+    }
+    nav li {
+        padding: 40px 15px 20px;
+    }
+    .cycle {
+        padding: 80px 0;
+    }
+    .cycle h1, .cycle ul li {
+        font-size: 40px;
+    }
+    .cycle ul li {
+        padding-left: 10px;
+    }
+    .skew {
+        margin-left: -8%;
+        margin-right: -8%;
+    }
+    #weather div:first-of-type {
+        margin-right: 20px;
+    }
+    #weather h2 {
+        font-size: 20px;
+    }
+    #weather h3 {
+        font-size: 14px;
+    }
+    #weather h1 {
+        font-size: 46px;
+    }
+    .dark .container, .light .container {
+        padding: 60px 20px;
+    }
+    .dark h2 {
+        font-size: 21px;
+    }
+    .services .container {
+        padding: 0;
+    }
+    section.footer .four.columns:nth-child(2) {
+        padding: 50px 0;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    #mediterranean-organic .pad {
+        padding-top: 140px;
+    }
+    section.blockquote h2 {
+        font-size: 16px;
+    }
+}
