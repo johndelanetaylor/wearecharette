@@ -81,6 +81,11 @@ $(document).ready(function() {
             });
         });
     } // Desktop size and up
+
+		// Pop that modal on load
+		if (window.location.hash == '#contact') {
+			$('#modal').trigger('click');
+		}
 });
 
 window.onload = function() {
