@@ -41,15 +41,18 @@
 <section id="services" class="services">
     <div class="container">
         <div class="row">
-            <div class="eight columns">
-                <img src="img/work.jpg" />
+            <div class="three columns">
+                <img src="img/computers.jpg" />
             </div>
-            <div class="four columns">
+            <div class="six columns">
                 <h4>Our Services</h4>
                 <h2>Identity<br>Web Design<br>Packaging</h2>
                 <h4>What is a Charette?</h4>
                 <p>According to Wikipedia, a charette is a collaborative design approach used to solve a problem quickly and comprehensively.</p>
                 <p>It's also our last name!</p>
+            </div>
+            <div class="three columns">
+                <img src="img/coffee.jpg" />
             </div>
         </div>
     </div> 
