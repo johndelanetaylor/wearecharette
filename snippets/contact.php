@@ -1,4 +1,28 @@
-<form>
+<?php
+$error = false;
+if (!!$_POST['email']) {
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$budget = $_POST['budget'];
+	$timeframe = $_POST['timeframe'];
+	$subject = "You got mail!";
+	$msg = $_POST['message'];
+	$spaminator = strtolower($_POST['spaminator']);
+	
+	if ($spaminator !== 'green') {
+		$error = true;
+	}
+	if (!$error) {
+		$msg = "email: " . $name . "<br />email address: " . $email . "<br />budget: " . $budget . "<br />timeframe: " . $timeframe . "message: <br />" . $msg;
+		$response = mail('jeffrey@wearecharette.com',$subject,$msg);
+		if (!$response) {
+			echo "<p>Oh man (insert facepalm), the darn internet is a pain in the !*?, try calling us :)  415-298-2707</p>";
+		}
+	}
+}
+
+?>
+<form name="contactform" method="post" action="studio#contact">
     <div class="row">
         <div class="six columns">
             <input class="u-full-width" type="text" name="name" placeholder="Name" required>
@@ -29,7 +53,12 @@
             </select>
         </div>
     </div>
-    <textarea class="u-full-width" placeholder="Tell us about your project. This will help us determine how we can work together." required></textarea>
-    <textarea class="u-full-width" placeholder="Color spaminator says, tell us: Yellow + Blue = (pink or green)" required></textarea>
+    <textarea name="message" class="u-full-width" placeholder="Tell us about your project. This will help us determine how we can work together." required></textarea>
+    <textarea name="spaminator" class="u-full-width" placeholder="Color spaminator says, tell us: Yellow + Blue = (pink or green)" required></textarea>
+<?php
+	if ($spaminator !== 'green') {
+		echo "<p>Come on you got this, what color rhymes with queen?  Ok it's green just write <strong>green</strong>.</p>";
+	}
+?>
     <input class="button-primary large" type="submit" value="Send">
 </form>
