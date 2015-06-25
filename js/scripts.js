@@ -57,10 +57,11 @@ $(document).ready(function() {
         $(this).closest('.row').find('.skew').toggleClass('hovered');
         $(this).closest('.row').find('.seven.columns').toggleClass('hovered');
     }); // Button Hover Skew
-    $('nav a').hover(function() { $(this).parent('li').toggleClass('hovered'); });
     // Need to fix this so it hides all but the sections currently in the viewport
     if(windowWidth >= 1000) {
-        $('#modal').on('click', function (e) {
+        
+        $('nav a').hover(function() { $(this).parent('li').toggleClass('hovered'); });
+        $('#modal, #modal2').on('click', function (e) {
             e.preventDefault();
             $('.modal, .backdrop').toggleClass('active');
         });
@@ -68,26 +69,23 @@ $(document).ready(function() {
             $('.modal, .backdrop').toggleClass('active');
         });
         // Fade-in sections as user scrolls
-        $('section:not(:nth-of-type(1)):not(:nth-of-type(2))').css('opacity',0);
-        $(window).scroll(function () {
-            $('section').each(function() {
-                var sectionBottom = $(this).position().top + $(this).outerHeight() / 3;
-                var windowBottom = $(window).scrollTop() + $(window).height();
-                if (windowBottom > sectionBottom) {
-                    $(this).animate({
-                        'opacity': '1'
-                    }, 500);
-                }
-            });
-        });
+        if($(window).scrollTop() === 0) {
+            $('section:not(:nth-of-type(1)):not(:nth-of-type(2))').css('opacity',0);
+            $(window).scroll(function () {
+                $('section').each(function() {
+                    var sectionBottom = $(this).position().top + $(this).outerHeight() / 3;
+                    var windowBottom = $(window).scrollTop() + $(window).height();
+                    if (windowBottom > sectionBottom) {
+                        $(this).animate({
+                            'opacity': '1'
+                        }, 500);
+                    }
+                });
+            });  
+        }
     } // Desktop size and up
-
-		// Pop that modal on load
-		if (window.location.hash == '#contact') {
-			$('#modal').trigger('click');
-		}
 });
 
-window.onload = function() {
+window.unload = function() {
     $(document.body).scrollTop(0);
 };
