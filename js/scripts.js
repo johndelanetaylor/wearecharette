@@ -26,19 +26,6 @@ $(window).resize(function() {
     windowSize();
 });
 
-// Fade-in sections as user scrolls
-$(window).scroll(function () {
-    $('section').each(function() {
-        var sectionBottom = $(this).position().top + $(this).outerHeight() / 3;
-        var windowBottom = $(window).scrollTop() + $(window).height();
-        if (windowBottom > sectionBottom) {
-            $(this).animate({
-                'opacity': '1'
-            }, 500);
-        }
-    });
-});
-
 $(document).ready(function() {
     windowSize();
     $('.home-slider').bxSlider({
@@ -72,7 +59,6 @@ $(document).ready(function() {
     }); // Button Hover Skew
     $('nav a').hover(function() { $(this).parent('li').toggleClass('hovered'); });
     // Need to fix this so it hides all but the sections currently in the viewport
-    $('section:not(:nth-of-type(1)):not(:nth-of-type(2))').css('opacity',0);
     if(windowWidth >= 1000) {
         $('#modal').on('click', function (e) {
             e.preventDefault();
@@ -80,6 +66,19 @@ $(document).ready(function() {
         });
         $('.backdrop, .modal .close').on('click', function (e) {
             $('.modal, .backdrop').toggleClass('active');
+        });
+        // Fade-in sections as user scrolls
+        $('section:not(:nth-of-type(1)):not(:nth-of-type(2))').css('opacity',0);
+        $(window).scroll(function () {
+            $('section').each(function() {
+                var sectionBottom = $(this).position().top + $(this).outerHeight() / 3;
+                var windowBottom = $(window).scrollTop() + $(window).height();
+                if (windowBottom > sectionBottom) {
+                    $(this).animate({
+                        'opacity': '1'
+                    }, 500);
+                }
+            });
         });
     } // Desktop size and up
 });
