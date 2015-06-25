@@ -37,7 +37,7 @@
                     <li>developers</li>
                     <li>thinkers</li>
                     <li>problem solvers</li>
-                    <li>rad</li>
+                    <li>hard at work</li>
                     <li>charette</li>
                 </ul>
             </div>

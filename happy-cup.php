@@ -127,7 +127,7 @@
             </div>
             <div class="three columns">
                 <h3>View Their Live Menus</h3>
-                <a href="http://menuat.com/happycup">HappyCup Menus</a>
+                <a href="http://menuat.com/happycup" target="_blank">HappyCup Menus</a>
             </div>
             <div class="one column offset"></div>
         </div>
