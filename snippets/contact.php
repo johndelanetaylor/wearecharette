@@ -57,7 +57,7 @@ if (!!$_POST['email']) {
                 <option value="$1,000 - $5,000">$1,000 - $5,000</option>
                 <option value="$5,000 - $15,000">$5,000 - $15,000</option>
                 <option value="Over $15,000">Over $15,000</option>
-                <option value="just want to talk">just want to talk</option>
+                <option value="Just Want to Talk">Just Want to Talk</option>
             </select>
         </div>
         <div class="six columns">
@@ -66,8 +66,8 @@ if (!!$_POST['email']) {
                 <option value="Less than 6 Weeks">Less than 6 Weeks</option>
                 <option value="6 Weeks - 3 Months">6 Weeks - 3 Months</option>
                 <option value="3 Months - 6 Months">3 Months - 6 Months</option>
-                <option value="need a pro in our corner">need a pro in our corner</option>
-                <option value="just want to talk">just want to talk</option>
+                <option value="Need a Pro in our Corner">Need a Pro in our Corner</option>
+                <option value="Just Want to Talk">Just Want to Talk</option>
             </select>
         </div>
     </div>

@@ -12,11 +12,6 @@
     
 <!-- Contact Modal -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/modal.php"); ?>
-    
-<!-- Slider Placeholder
-<div style="text-align: center; width: 100%; margin: 20px 0 40px;">
-    <img src="img/slider.jpg" style="margin:auto; max-width: 100%;" />
-</div> -->
 
 <!-- Slider -->
 <!-- <div class="home-slider">
@@ -42,23 +37,6 @@
                 </ul>
             </div>
         </div>
-        
-  <!--      <div class="six columns left">
-            <div class="left">
-                <p>we are</p>
-            </div>
-        </div>
-        <div class="six columns right">
-            <ul>
-                <li id="content-1">designers</li>
-                <li id="content-2">developers</li>
-                <li id="content-3">thinkers</li>
-                <li id="content-4">problem solvers</li>
-                <li id="content-5">rad</li>
-                <li id="content-6">charette</li>
-            </ul>
-        </div>
-    </div>-->
 </section>
     
 <!-- Case Study 1 -->
