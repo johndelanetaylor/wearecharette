@@ -27,18 +27,20 @@
 </div>-->
     
 <!-- We are... -->
-<section class="weare">
+<section class="cycle">
     <div class="container">
         <div class="twelve columns">
-            <h1>We are</h1>
-            <ul>
-                <li id="content-1">designers</li>
-                <li id="content-2">developers</li>
-                <li id="content-3">thinkers</li>
-                <li id="content-4">problem solvers</li>
-                <li id="content-5">rad</li>
-                <li id="content-6">charette</li>
-            </ul>
+            <div class="box">
+                <h1>we are</h1>
+                <ul>
+                    <li>designers</li>
+                    <li>developers</li>
+                    <li>thinkers</li>
+                    <li>problem solvers</li>
+                    <li>rad</li>
+                    <li>charette</li>
+                </ul>
+            </div>
         </div>
         
   <!--      <div class="six columns left">

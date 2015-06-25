@@ -87,24 +87,47 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     transition: all 0.5s ease;
 }
 
-/* ~~~~~ Index ~~~~~~ */
-.weare {
+/* ~~~~~ Cycle ~~~~~~ */
+.cycle {
     color: #FFFFFF;
-    font-family: "brandon-grotesque", sans-serif;
-    padding: 250px 0;
-    background: #111111;
+    padding: 160px 0;
+    position: relative;
     margin-bottom: 70px;
+    background-color: #111111;
+    font-family: "brandon-grotesque", sans-serif;
 }
-.weare h1, .weare ul li {
-    font-size: 92px;
+.cycle:before {
+    content: '';
     display: block;
-    float: left;
-    line-height: 20px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.3;
+    background-image: url(/img/girls.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -ms-background-size: cover;
+    background-size: cover;
 }
-.weare ul li {
+.cycle h1, .cycle ul li {
+    font-size: 80px;
+}
+.cycle h1, .cycle ul {
+    display: inline-block;
+}
+.cycle ul li:not(:last-of-type) {
+    display: none;
+}
+.cycle .box {
+    width: auto;
+    margin: auto;
+    line-height: 1.2;
+    text-align: center;
+}
+.cycle ul li {
     padding-left: 15px;
-}
-#content-1, #content-2, #content-3, #content-4, #content-5, #content-6 {
     color: #E8282E;
 }
 
@@ -239,7 +262,7 @@ section.footer a:hover h4 {
 /* ~~~~~ Studio ~~~~~ */
 .dark {
     color: #FFF;
-    background: rgba(0,0,0,.8);
+    background: #111111;
     font-family: "brandon-grotesque", sans-serif;
 }
 .light .container {
@@ -262,6 +285,10 @@ section.footer a:hover h4 {
 }
 .services img {
     float: right;
+    max-height: 500px;
+}
+.services .three:last-of-type img {
+    float: left;
 }
 .services h2 {
     font-weight: 400;
@@ -273,8 +300,8 @@ section.footer a:hover h4 {
     font-weight: 400;
     margin-bottom: 5px;
 }
-.services .four.columns {
-    padding-top: 40px;
+.services .six.columns {
+    padding-top: 60px;
 }
 .services .spacer {
     height: 60px;
