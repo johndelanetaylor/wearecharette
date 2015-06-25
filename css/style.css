@@ -90,7 +90,7 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
 /* ~~~~~ Cycle ~~~~~~ */
 .cycle {
     color: #FFFFFF;
-    padding: 160px 0;
+    padding: 140px 0;
     position: relative;
     margin-bottom: 70px;
     background-color: #111111;
@@ -115,7 +115,8 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     font-size: 80px;
 }
 .cycle h1, .cycle ul {
-    display: inline-block;
+    line-height: 1;
+    display: block;
 }
 .cycle ul li:not(:last-of-type) {
     display: none;
@@ -127,7 +128,6 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     text-align: center;
 }
 .cycle ul li {
-    padding-left: 15px;
     color: #E8282E;
 }
 .cycle ul {
@@ -991,6 +991,12 @@ i {
     }
     .cycle h1, .cycle ul li {
         font-size: 70px;
+    }
+    .cycle h1, .cycle ul {
+        display: inline-block;
+    }
+    .cycle ul li {
+        padding-left: 15px;
     }
     #happy-cup .menu-boards {
         min-height: 420px;
