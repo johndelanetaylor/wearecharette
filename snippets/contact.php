@@ -23,10 +23,10 @@ if (!!$_POST['email']) {
 		$msg = "email: " . $name . "<br />email address: " . $email . "<br />budget: " . $budget . "<br />timeframe: " . $timeframe . "<br />message: " . $message;
 		$response = mail('hello@wearecharette.com', $subject, $msg, $headers);
 		if (!$response) {
-			echo "<p>Oh man (insert facepalm), the darn internet is a pain in the !*?, try calling us :)  415-298-2707</p>";
+			echo "<p>Oh man (insert facepalm), the darn internet is a pain in the !*?, try calling us :)  415-298-2706</p>";
 		}
 		else {
-			echo "<p>Can't wait to get in touch, we will get back with you soon! If we don't, give us a ring at 415-298-2707.</p>";
+			echo "<p>Can't wait to get in touch, we will get back with you soon! If we don't, give us a ring at 415-298-2706.</p>";
 		}
 	}
 }
