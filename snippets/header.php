@@ -32,3 +32,5 @@
 <meta name="msapplication-TileImage" content="/img/icons/mstile-144x144.png">
 <meta name="msapplication-config" content="/img/icons/browserconfig.xml">
 <meta name="theme-color" content="#FFFFFF">
+
+<meta name="p:domain_verify" content="beb8ae7682415962f6ede18ff706d35d”/>
