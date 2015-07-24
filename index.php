@@ -37,6 +37,7 @@
                 </ul>
             </div>
         </div>
+    </div>
 </section>
     
 <!-- Case Study 1 -->

@@ -93,6 +93,19 @@
     </div> 
 </section>
     
+<section class="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="offset-by-two eight columns">
+                <img src="http://placehold.it/80x80"/>
+                <h4>"In my experience I have never worked with a team as talented, attentive and intuitive as Emily and the team at We Are Charette."</h4>
+                <h6><strong>Aaron Levine</strong><br />
+                    Happy Cup, Founder &amp; CEO</h6>
+            </div>
+        </div>
+    </div>
+</section>
+    
 <!-- Team -->
 <section id="team" class="team">
     <div class="container">
