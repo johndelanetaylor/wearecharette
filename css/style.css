@@ -654,6 +654,28 @@ footer li a:hover {
     min-height: 500px;
 }
 
+/* ~~~~~ Harvest Bay ~~~~~ */
+#harvest-bay section.text h3 {
+    color: #20C1DA;
+}
+#harvest-bay .bx-wrapper .bx-prev {
+    border-right: 0.2em solid #20C1DA;
+    border-top: 0.2em solid #20C1DA;
+}
+#harvest-bay .bx-wrapper .bx-next {
+    border-right: 0.2em solid #20C1DA;
+    border-top: 0.2em solid #20C1DA;
+}
+#harvest-bay .bx-wrapper .bx-pager.bx-default-pager a:hover, #harvest-bay .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #20C1DA;
+}
+#harvest-bay .cover {
+    background: url('/img/harvest-bay/cover.jpg') 50% 50% / cover;
+}
+#harvest-bay .pad-bot {
+    padding-bottom: 40px;
+}
+
 /* ~~~~~ Modal ~~~~~ */
 .modal, .backdrop {
     top: 0;
