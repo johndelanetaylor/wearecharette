@@ -105,7 +105,7 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     width: 100%;
     height: 100%;
     opacity: 0.3;
-    background-image: url(/img/girls.jpg);
+    background-image: url('/img/girls.jpg');
     background-repeat: no-repeat;
     background-position: 50% 50%;
     -ms-background-size: cover;
@@ -389,17 +389,17 @@ section.footer a:hover h4 {
     transition: all 0.5s ease;
 }
 
-.team .item:nth-of-type(1) { background: url(/img/team/jeff.png); }
-.team .item:nth-of-type(2) { background: url(/img/team/emily.png); }
-.team .item:nth-of-type(3) { background: url(/img/team/john.png); }
-.team .item:nth-of-type(4) { background: url(/img/team/katie.png); }
-.team .item:nth-of-type(5) { background: url(/img/team/seth.png); }
+.team .item:nth-of-type(1) { background: url('/img/team/jeff.png'); }
+.team .item:nth-of-type(2) { background: url('/img/team/emily.png'); }
+.team .item:nth-of-type(3) { background: url('/img/team/john.png'); }
+.team .item:nth-of-type(4) { background: url('/img/team/katie.png'); }
+.team .item:nth-of-type(5) { background: url('/img/team/seth.png'); }
 
-.team .item:nth-of-type(1):hover { background: url(/img/team/jeff-red.png); }
-.team .item:nth-of-type(2):hover { background: url(/img/team/emily-red.png); }
-.team .item:nth-of-type(3):hover { background: url(/img/team/john-red.png); }
-.team .item:nth-of-type(4):hover { background: url(/img/team/katie-red.png); }
-.team .item:nth-of-type(5):hover { background: url(/img/team/seth-red.png); }
+.team .item:nth-of-type(1):hover { background: url('/img/team/jeff-red.png'); }
+.team .item:nth-of-type(2):hover { background: url('/img/team/emily-red.png'); }
+.team .item:nth-of-type(3):hover { background: url('/img/team/john-red.png'); }
+.team .item:nth-of-type(4):hover { background: url('/img/team/katie-red.png'); }
+.team .item:nth-of-type(5):hover { background: url('/img/team/seth-red.png'); }
 
 .team h3, .process h3, .contact h3, .contact h4 {
     text-align: center;
@@ -519,13 +519,13 @@ footer li a:hover {
     background: #224B7C;
 }
 #natural-sea .cover {
-    background: url(/img/natural-sea/cover.jpg) 50% 50% / cover;
+    background: url('/img/natural-sea/cover.jpg') 50% 50% / cover;
 }
 #natural-sea .blockquote {
-    background: url(/img/natural-sea/quote.jpg) 50% 50% / cover;
+    background: url('/img/natural-sea/quote.jpg') 50% 50% / cover;
 }
 #natural-sea .info {
-    background: url(/img/natural-sea/tail.jpg) bottom right 40px no-repeat;
+    background: url('/img/natural-sea/tail.jpg') bottom right 40px no-repeat;
 }
 
 /* ~~~~~ Happy Cup ~~~~~ */
@@ -551,10 +551,10 @@ footer li a:hover {
     background: #892577;
 }
 #happy-cup .cover {
-    background: url(/img/happy-cup/cover.jpg) 50% 50% / cover;
+    background: url('/img/happy-cup/cover.jpg') 50% 50% / cover;
 }
 #happy-cup .full-width {
-    background: url(/img/happy-cup/background-image.jpg) 50% 50% / cover;
+    background: url('/img/happy-cup/background-image.jpg') 50% 50% / cover;
     min-height: 300px;
 }
 #happy-cup .formula {
@@ -566,7 +566,7 @@ footer li a:hover {
     margin-bottom: -8px;
 }
 #happy-cup .menu-boards {
-    background: url(/img/happy-cup/menu-boards.jpg) 50% 100% / cover;
+    background: url('/img/happy-cup/menu-boards.jpg') 50% 100% / cover;
     min-height: 600px;
 }
 
@@ -590,10 +590,10 @@ footer li a:hover {
     background: #F7B014;
 }
 #mediterranean-organic .cover {
-    background: url(/img/mediterranean-organic/cover.jpg) 50% 50% / cover;
+    background: url('/img/mediterranean-organic/cover.jpg') 50% 50% / cover;
 }
 #mediterranean-organic .blockquote {
-    background: url(/img/mediterranean-organic/waves.jpg) 50% 50% / cover;
+    background: url('/img/mediterranean-organic/waves.jpg') 50% 50% / cover;
     height: 525px;
 }
 #mediterranean-organic .pad {
@@ -617,7 +617,7 @@ footer li a:hover {
     bottom: 0;
 }
 #mediterranean-organic .info {
-    background: url(/img/mediterranean-organic/olive.jpg) bottom 80px left 160px no-repeat;
+    background: url('/img/mediterranean-organic/olive.jpg') bottom 80px left 160px no-repeat;
 }
 
 /* ~~~~~ Tumaros ~~~~~ */
@@ -640,17 +640,17 @@ footer li a:hover {
     background: #EF3E42;
 }
 #tumaros .cover {
-    background: url(/img/tumaros/cover.jpg) 50% 50% / cover;
+    background: url('/img/tumaros/cover.jpg') 50% 50% / cover;
 }
 #tumaros .full-width-1 {
-    background: url(/img/tumaros/background-image-1.jpg) 50% 50% / cover;
+    background: url('/img/tumaros/background-image-1.jpg') 50% 50% / cover;
     min-height: 500px;
 }
 #tumaros .pad-bot {
     padding-bottom: 40px;
 }
 #tumaros .full-width-2 {
-    background: url(/img/tumaros/background-image-2.jpg) 50% 50% / cover;
+    background: url('/img/tumaros/background-image-2.jpg') 50% 50% / cover;
     min-height: 500px;
 }
 

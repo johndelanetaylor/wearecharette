@@ -11,6 +11,7 @@
                         <li><a href="/happy-cup">Happy Cup</a></li>
                         <li><a href="/natural-sea">Natural Sea</a></li>
                         <li><a href="/mediterranean-organic">Mediterranean Organic</a></li>
+                        <li><a href="/tumaros">Tumaros</a></li>
                     </ul>
                 </div>
                 <div class="two columns">
@@ -26,8 +27,8 @@
                     <h4>Connect</h4>
                     <ul>
                         <li id="modal2"><a href="/studio#contact">Contact</a></li>
-                        <li><a href="https://www.facebook.com/Wearecharette" target="_blank">Facebook</a></li>
                         <li><a href="https://twitter.com/wearecharette" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/Wearecharette" target="_blank">Facebook</a></li>
                         <li><a href="https://instagram.com/wearecharette" target="_blank">Instagram</a></li>
                         <li><a href="https://dribbble.com/WeAreCharette" target="_blank">Dribbble</a></li>
                     </ul>

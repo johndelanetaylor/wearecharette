@@ -202,9 +202,9 @@
                 </a>
             </div>
             <div class="four columns">
-                <a href="/happy-cup">
+                <a href="/tumaros">
                     <img src="/img/icons/arrow-right.png" />
-                    <h4>Happy Cup</h4>
+                    <h4>Tumaros</h4>
                 </a>
             </div>
         </div>
