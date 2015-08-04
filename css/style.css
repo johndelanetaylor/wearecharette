@@ -162,14 +162,19 @@ nav li, nav li a, nav li.hovered, nav li.hovered a {
     background: #111;
     color: #FFF;
 }
-.testimonial h6 {
-    padding-top: 25px;
+.testimonial h4, h6 {
+    padding-top: 20px;
 }
 .testimonial img {
     width: 80px;
     height: 80px;
     border-radius: 40px;
     margin-bottom: 25px;
+    margin: 0 auto;
+}
+.testimonial .bx-wrapper .bx-viewport {
+    background: none;
+    border: none;
 }
 
 /* ~~~~~ Project ~~~~~ */
@@ -306,6 +311,9 @@ section.footer a:hover h4 {
 .services img {
     float: right;
     max-height: 500px;
+}
+.services {
+    overflow: hidden;
 }
 .services .three:last-of-type img {
     float: left;
@@ -966,6 +974,9 @@ i {
     .study.right .seven.columns img {
         float: right;
     }
+    .services {
+    overflow: hidden;
+    }
 }
 @media (min-width: 1000px) {
     .skew, .skew img, .study .seven.columns {
@@ -1028,6 +1039,9 @@ i {
         -ms-transform: skew(0);
         transform: skew(0);
     }
+    .services {
+    overflow: hidden;
+    }
 }
 @media (max-width: 999px) {
     #happy-cup img, #mediterranean-organic img, #natural-sea img {
@@ -1070,6 +1084,9 @@ i {
     .study {
         height: auto;
     }
+    .services {
+        overflow: hidden;
+    }
 }
 @media (max-width: 749px) {
     .cycle {
@@ -1099,6 +1116,9 @@ i {
     }
     nav .container {
         height: auto;
+    }
+    .services {
+    overflow: hidden;
     }
 }
 @media (max-width: 549px) {

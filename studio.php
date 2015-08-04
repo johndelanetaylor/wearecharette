@@ -96,6 +96,39 @@
 <section class="testimonial">
     <div class="container">
         <div class="row">
+            <div class="slider color">
+                <div class="slide">
+                    <div class="offset-by-two eight columns">
+                        <a href="/happy-cup"><img src="img/aaron-levine.jpg" /></a>
+                        <h4>"In my experience I have never worked with a team as talented, attentive, and intuitive as Emily and the team at We Are Charette."</h4>
+                        <h6><strong>Aaron Levine</strong><br />
+                            Happy Cup, Founder &amp; CEO</h6>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="offset-by-two eight columns">
+                        <img src="img/rob-futrell.jpg" />
+                        <h4>"We Are Charette has this gift for creating a spectrum of options that capture my unique style and taste. It never felt like we were working - just creating. "</h4>
+                        <h6><strong>Rob Futrell</strong><br />
+                            Rob Futrell Photography, Owner</h6>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="offset-by-two eight columns">
+                        <img src="img/sandra-swale.jpg" />
+                        <h4>"We Are Charette are brand builders, but mostly, they are just a whole lot of fun to work with."</h4>
+                        <h6><strong>Sandra Swale</strong><br />
+                            Blue Marble Brands, Creative Services Manager</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+<!-- <section class="testimonial">
+    <div class="container">
+        <div class="row">
             <div class="offset-by-two eight columns">
                 <a href="/happy-cup"><img src="img/aaron-levine.jpg" /></a>
                 <h4>"In my experience I have never worked with a team as talented, attentive, and intuitive as Emily and the team at We Are Charette."</h4>
@@ -104,7 +137,7 @@
             </div>
         </div>
     </div>
-</section>
+</section>-->
     
 <!-- Team -->
 <section id="team" class="team">

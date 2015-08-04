@@ -104,12 +104,31 @@
             <div class="five columns">
                 <h4>Case Study</h4>
                 <h2>Tumaros</h2>
-                <p>Tumaro's journey began in Santa Monica, CA in the early 90’s and quickly became the leading brand in the flavored tortilla category. Gradually, they realized their true calling as a Low-in-Carbs option for people looking for lighter choices.</p>
+                <p>Tumaro's journey began in Santa Monica, CA in the early 90’s and quickly became the leading brand in the flavored tortilla category.</p>
                 <a class="button" href="/tumaros">View Case Study</a>
             </div>
             <div class="seven columns">
                 <div class="skew">
                     <img src="img/projects/tumaros.jpg" />
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+    
+<!-- Case Study 5 -->
+<section class="study">
+    <div class="container">
+        <div class="row">
+            <div class="five columns">
+                <h4>Case Study</h4>
+                <h2>Harvest Bay</h2>
+                <p>This popular coconut water brand was extending their line to include three new certified organic flavors.</p>
+                <a class="button" href="/harvest-bay">View Case Study</a>
+            </div>
+            <div class="seven columns">
+                <div class="skew">
+                    <img src="img/projects/harvest-bay.jpg" />
                 </div>
             </div>
         </div>

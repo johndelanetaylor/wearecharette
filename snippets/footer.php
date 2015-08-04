@@ -12,6 +12,7 @@
                         <li><a href="/natural-sea">Natural Sea</a></li>
                         <li><a href="/mediterranean-organic">Mediterranean Organic</a></li>
                         <li><a href="/tumaros">Tumaros</a></li>
+                        <li><a href="/harvest-bay">Harvest Bay</a></li>
                     </ul>
                 </div>
                 <div class="two columns">

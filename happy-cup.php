@@ -139,9 +139,9 @@
     <div class="container">
         <div class="row">
             <div class="four columns">
-                <a href="/tumaros">
+                <a href="/harvest-bay">
                     <img src="/img/icons/arrow-left.png" />
-                    <h4>Tumaros</h4>
+                    <h4>Harvest Bay</h4>
                 </a>
             </div>
             <div class="four columns">

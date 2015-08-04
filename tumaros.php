@@ -131,9 +131,9 @@
                 </a>
             </div>
             <div class="four columns">
-                <a href="/happy-cup">
+                <a href="/harvest-bay">
                     <img src="/img/icons/arrow-right.png" />
-                    <h4>Happy Cup</h4>
+                    <h4>Harvest Bay</h4>
                 </a>
             </div>
         </div>
