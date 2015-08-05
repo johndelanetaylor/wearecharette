@@ -219,7 +219,7 @@ section.text p {
     letter-spacing: .2px;
 }
 
-/* Info */ 
+/* Info */
 section.info ul {
     padding-left: 20px;
     list-style: initial;
@@ -411,14 +411,14 @@ section.footer a:hover h4 {
 
 .team h3, .process h3, .contact h3, .contact h4 {
     text-align: center;
-} /* Team */ 
+} /* Team */
 
 .contact h3 {
     padding-top: 80px;
 }
 .contact h4, .contact {
     padding-bottom: 80px;
-} 
+}
 .contact form {
     max-width: 640px;
     margin: auto;
@@ -678,12 +678,42 @@ footer li a:hover {
     background: #20C1DA;
 }
 #harvest-bay .cover {
-    background: url('/img/harvest-bay/cover.jpg') 50% 50% / cover;
+    background: url('/img/1565/cover.jpg') 50% 50% / cover;
 }
 #harvest-bay .pad-bot {
     padding-bottom: 40px;
 }
 
+/* ~~~~~ 1565 ~~~~~ */
+#coffee section.text h3 {
+    color: #A9693E;
+}
+#coffee .bx-wrapper .bx-prev {
+    border-right: 0.2em solid #A9693E;
+    border-top: 0.2em solid #A9693E;
+}
+#coffee .bx-wrapper .bx-next {
+    border-right: 0.2em solid #A9693E;
+    border-top: 0.2em solid #A9693E;
+}
+#coffee .bx-wrapper .bx-pager.bx-default-pager a:hover, #coffee .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #A9693E;
+}
+#coffee .cover {
+    background: url('/img/1565/cover.jpg') 50% 50% / cover;
+}
+#coffee .all-packs {
+    background: url('/img/1565/1565-all-packs-2.jpg') 50% 50% / cover;
+    min-height: 550px;
+}
+#coffee .band-labels {
+    background: url('/img/1565/1565-band-labels.jpg') 50% 50% / cover;
+    min-height: 500px;
+}
+
+#coffee .band-labels img {
+    margin: 0 auto;
+}
 /* ~~~~~ Modal ~~~~~ */
 .modal, .backdrop {
     top: 0;
@@ -813,7 +843,7 @@ i {
     font-size: 120%;
     margin-left: 10px;
     font-style: normal;
-    font-family: weather;  
+    font-family: weather;
 }
 
 .icon-0:before { content: ":"; }
@@ -987,7 +1017,7 @@ i {
         height: 450px;
         overflow: hidden;
         margin-right: -250px;
-        position: relative;  
+        position: relative;
         -webkit-transform: skew(20deg);
         -ms-transform: skew(20deg);
         transform: skew(20deg);
@@ -1010,7 +1040,7 @@ i {
         overflow: hidden;
         margin-right: 0;
         margin-left: -250px;
-        position: relative;  
+        position: relative;
         -webkit-transform: skew(-20deg);
         -ms-transform: skew(-20deg);
         transform: skew(-20deg);

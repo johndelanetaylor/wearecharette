@@ -13,6 +13,7 @@
                         <li><a href="/mediterranean-organic">Mediterranean Organic</a></li>
                         <li><a href="/tumaros">Tumaros</a></li>
                         <li><a href="/harvest-bay">Harvest Bay</a></li>
+                        <li><a href="/1565">1565 Artisan Coffee</a></li>
                     </ul>
                 </div>
                 <div class="two columns">

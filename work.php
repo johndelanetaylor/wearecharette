@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang='en'>
 <?php $pageTitle = 'Work'; ?>
-    
+
 <head>
 	<?php include($_SERVER['DOCUMENT_ROOT']."/snippets/header.php"); ?>
 </head>
 
 <body>
-	
+
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/nav.php"); ?>
-    
+
 <!-- Contact Modal -->
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/modal.php"); ?>
 
@@ -29,7 +29,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </section>
 
 <!-- Case Study 2 -->
@@ -48,7 +48,7 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </section>
 
 <!-- Case Study 3 -->
@@ -67,9 +67,9 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </section>
-    
+
 <!-- Case Study 4 -->
 <section class="study right">
     <div class="container">
@@ -86,9 +86,9 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </section>
-    
+
 <!-- Case Study 5 -->
 <section class="study">
     <div class="container">
@@ -105,9 +105,28 @@
                 </div>
             </div>
         </div>
-    </div> 
+    </div>
 </section>
-    
+
+<!-- Case Study 6 -->
+<section class="study right">
+    <div class="container">
+        <div class="row">
+            <div class="five columns">
+                <h4>Case Study</h4>
+                <h2>1565 Artisan Coffee</h2>
+                <p>When a local coffee company asked us to help them launch an all-new brand of St. Augustine-roasted coffee, we put on our storytelling hats and went to town.</p>
+                <a class="button" href="/1565">View Case Study</a>
+            </div>
+            <div class="seven columns">
+                <div class="skew">
+                    <img src="img/projects/1565-cover.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php include($_SERVER['DOCUMENT_ROOT']."/snippets/footer.php"); ?>
 
 </body>

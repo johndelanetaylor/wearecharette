@@ -30,20 +30,20 @@
 ===================================*/
 
 .bx-wrapper .bx-viewport {
-	border:  5px solid #fff;
+	/* border:  5px solid #fff; */
 	left: -5px;
-	background: #fff;
+	/* background: #fff; */
 
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
-    	-ms-transform: translatez(0);
-    	transform: translatez(0);
+  -ms-transform: translatez(0);
+	transform: translatez(0);
 }
 
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-	bottom: -40px;
+	bottom: -55px;
 	width: 100%;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a {
-    background: #c7c7c7;
+  background: #c7c7c7;
 	text-indent: -9999px;
 	display: block;
 	width: 10px;
@@ -87,35 +87,35 @@
 	margin: 0 5px;
 	outline: 0;
 	border-radius: 5px;
-    -webkit-transition: background 0.5s;
-    transition: background 0.5s;
+  -webkit-transition: background 0.5s;
+  transition: background 0.5s;
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
 .bx-wrapper .bx-pager.bx-default-pager a.active {
-    background: #e8282e;
+  background: #e8282e;
 }
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev, .bx-wrapper .bx-next {
-    width: 1.6em;
-    height: 1.6em;
-    border-right: 0.2em solid #E8282E;
-    border-top: 0.2em solid #E8282E;
-    margin-right: 0.5em;
+  width: 1.6em;
+  height: 1.6em;
+  border-right: 0.2em solid #E8282E;
+  border-top: 0.2em solid #E8282E;
+  margin-right: 0.5em;
 }
 .bx-wrapper .bx-prev {
-    left: 20px;
-    -webkit-transform: rotate(225deg);
-    -ms-transform: rotate(225deg);
-    transform: rotate(225deg);
+  left: 20px;
+  -webkit-transform: rotate(225deg);
+  -ms-transform: rotate(225deg);
+  transform: rotate(225deg);
 }
 .bx-wrapper .bx-next {
-    right: 10px;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+  right: 10px;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -126,7 +126,7 @@
 	width: 32px;
 	height: 32px;
 	z-index: 100;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .bx-wrapper .bx-controls-direction a.disabled {
